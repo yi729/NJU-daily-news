@@ -1,0 +1,160 @@
+{
+  "date": "2026-09-24",
+  "generatedAt": "2026-09-25T20:26:08+08:00",
+  "stats": {
+    "new": 4,
+    "updated": 0,
+    "sources": 1
+  },
+  "sources": [
+    {
+      "name": "学生交流办公室",
+      "column": "通知通告",
+      "items": [
+        {
+          "item_key": "c2539a844934",
+          "title": "【法国-本科生、硕士生】2027年春季学期ESSCA商学院交换项目通知",
+          "url": "https://stuex.nju.edu.cn/e4/86/c2539a844934/page.htm",
+          "publish_date": "2026-09-24",
+          "summary": "南大本科生、硕士生可申请2027年春季ESSCA商学院交换，9月29日校内推荐截止。",
+          "tags": [
+            "交换",
+            "报名",
+            "手续"
+          ],
+          "deadline": "2026-09-29",
+          "highlight": true,
+          "highlight_reason": "校内推荐9月29日截止",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/aa/c7/0025b29a4e73bd9181c8259e26ee/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a844931",
+          "title": "【意大利-本科生、硕士生】2027年春季学期威尼斯大学交换项目通知",
+          "url": "https://stuex.nju.edu.cn/e4/83/c2539a844931/page.htm",
+          "publish_date": "2026-09-24",
+          "summary": "南大本科生、硕士生可申请2027年春季威尼斯大学交换，9月30日校内推荐截止。",
+          "tags": [
+            "交换",
+            "报名",
+            "手续"
+          ],
+          "deadline": "2026-09-30",
+          "highlight": true,
+          "highlight_reason": "校内推荐9月30日截止",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/2f/44/163118074194b64bc665c4c4a190/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a844927",
+          "title": "【美国-本科生】2027年春季学期美国纽约州立大学石溪分校交换项目通知",
+          "url": "https://stuex.nju.edu.cn/e4/7f/c2539a844927/page.htm",
+          "publish_date": "2026-09-24",
+          "summary": "南大大二大三本科生可申请2027年春季石溪分校交换，9月29日校内推荐截止。",
+          "tags": [
+            "交换",
+            "报名",
+            "手续"
+          ],
+          "deadline": "2026-09-29",
+          "highlight": true,
+          "highlight_reason": "校内推荐9月29日截止",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/0b/d8/5ab5672e4713b0d7ab7e8eeb0218/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a844915",
+          "title": "【法国-本科生、硕士生】2027年春季学期波尔多政治学院交换项目通知",
+          "url": "https://stuex.nju.edu.cn/e4/73/c2539a844915/page.htm",
+          "publish_date": "2026-09-24",
+          "summary": "南大本科生、硕士生可申请2027年春季波尔多政治学院交换，9月30日校内推荐截止。",
+          "tags": [
+            "交换",
+            "报名",
+            "手续"
+          ],
+          "deadline": "2026-09-30",
+          "highlight": true,
+          "highlight_reason": "校内推荐9月30日截止",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/24/fb/346cc13b46479b1b7d268db1ff1b/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "portals": [
+    {
+      "name": "教务处",
+      "column": "公告通知",
+      "url": "https://jw.nju.edu.cn/ggtz/list.htm",
+      "login": false
+    },
+    {
+      "name": "学生交流办公室",
+      "column": "通知通告",
+      "url": "https://stuex.nju.edu.cn/2539/list.htm",
+      "login": false
+    },
+    {
+      "name": "五育",
+      "column": "活动报名",
+      "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+      "login": true
+    },
+    {
+      "name": "志愿服务",
+      "column": "活动中心",
+      "url": "https://youth.nju.edu.cn/tw/#/legacy?target=/zyz/hdzx&me=MGRmODJjNmEtOTNiZi00MjJjLTk3MWEtMTJmOTdhZjIzYmRj",
+      "login": true
+    },
+    {
+      "name": "选课批次",
+      "column": "选课公告",
+      "url": "https://xk.nju.edu.cn/",
+      "login": false
+    },
+    {
+      "name": "选课公告",
+      "column": "选课公告",
+      "url": "https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/*default/publicinfo.do?type=notice",
+      "login": false
+    },
+    {
+      "name": "办事大厅通知",
+      "column": "通知公告",
+      "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do",
+      "login": true
+    },
+    {
+      "name": "教服平台通知",
+      "column": "通知公告",
+      "url": "https://ehall.nju.edu.cn/portal/html/select_role.html?appId=7170579276974719",
+      "login": true
+    }
+  ],
+  "errors": []
+}
