@@ -76,3 +76,27 @@ export async function readSearch(query, days = SEARCH_DAYS) {
   }
   return { query, scannedDays: Math.min(days, index.length), items };
 }
+
+// 最近一期周报的综述；还没有周报时返回 null（页面显示引导文案）
+export async function readWeek() {
+  try {
+    return await getJson(`${DATA_ROOT}/week.json`);
+  } catch (error) {
+    if (error instanceof ApiError && error.status === 404) return null;
+    throw error;
+  }
+}
+
+// 最近 days 期日报里的全部条目（按发布时间从新到旧），供「本周」页聚合
+export async function readWindow(days = 7, limit = 400) {
+  const index = await readIndex(MAX_DAYS);
+  const window = new Set(index.slice(0, days).map((entry) => entry.date));
+  const data = await getJson(`${DATA_ROOT}/search.json`);
+  const items = [];
+  for (const item of Array.isArray(data?.items) ? data.items : []) {
+    if (!window.has(item.date)) continue;
+    items.push(item);
+    if (items.length >= limit) break;
+  }
+  return items;
+}

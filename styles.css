@@ -486,6 +486,103 @@ a { color: inherit; }
 .dayrow__week { font-size: 12.5px; color: var(--text-dim); }
 .dayrow__stat { margin-left: auto; text-align: right; font-size: 12.5px; color: var(--text-dim); }
 
+/* 本周 */
+.weekcard__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.weekcard__range {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.weekcard__gen { margin-left: auto; font-size: 12px; color: var(--text-dim); }
+
+.weekcard__text {
+  margin: 8px 0 0;
+  font-size: 14.5px;
+  line-height: 1.75;
+}
+
+.weekcard__text--muted { color: var(--text-dim); font-size: 13.5px; }
+
+.weekcard__stats {
+  margin-top: 8px;
+  font-size: 12.5px;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.weekgrid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+.weekgrid__cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 8px 2px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--surface-2);
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+.weekgrid__cell:hover { border-color: var(--accent); }
+.weekgrid__cell--zero { opacity: 0.55; }
+
+.weekgrid__day { font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.weekgrid__week { font-size: 11px; color: var(--text-dim); }
+.weekgrid__n { font-size: 12px; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+.weekgrid__star { font-size: 10.5px; color: var(--star); }
+
+.pill--urgent { background: var(--danger-soft); color: var(--danger); font-weight: 600; }
+
+.dist { margin: 0; padding: 0; list-style: none; }
+
+.dist__row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 0;
+  font-size: 13px;
+}
+
+.dist__name {
+  flex: 0 0 42%;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dist__track {
+  flex: 1;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--surface-2);
+  overflow: hidden;
+}
+
+.dist__fill { display: block; height: 100%; border-radius: 999px; background: var(--accent); }
+
+.dist__n {
+  flex: none;
+  font-size: 12.5px;
+  color: var(--text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
 /* 状态 */
 .state {
   color: var(--text-dim);

@@ -1,13 +1,15 @@
-import { ApiError, readDay, readIndex, readLatest, readSearch } from './api.js';
+import { ApiError, readDay, readIndex, readLatest, readSearch, readWeek, readWindow } from './api.js';
 
 const WEEK = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
 
 const view = document.getElementById('view');
 const state = {
   day: null,
+  daySource: null,
   days: null,
   filters: { q: '', source: '', tag: '', star: false },
   search: { q: '', items: null, scannedDays: 0 },
+  week: { data: null, items: null },
   token: 0,
 };
 
@@ -48,6 +50,7 @@ function parseHash() {
   const parts = path.split('/').filter(Boolean);
   const params = new URLSearchParams(query || '');
   if (parts[0] === 'archive') return { name: 'archive' };
+  if (parts[0] === 'week') return { name: 'week' };
   if (parts[0] === 'search') return { name: 'search', q: params.get('q') || '' };
   if (parts[0] === 'day' && /^\d{4}-\d{2}-\d{2}$/.test(parts[1] || '')) {
     return { name: 'day', date: parts[1] };
@@ -161,7 +164,8 @@ function highlightItems(day) {
       if (item.highlight) items.push({ ...item, source: group.name });
     }
   }
-  return items.sort((a, b) => (a.deadline || '9999').localeCompare(b.deadline || '9999'));
+  return items.sort((a, b) => (a.deadline || '9999').localeCompare(b.deadline || '9999')
+    || (b.publish_date || '').localeCompare(a.publish_date || ''));
 }
 
 function applyFilters(day, filters) {
@@ -554,6 +558,211 @@ function searchView(query, items, scannedDays) {
   return node;
 }
 
+/* ---------- 本周 ---------- */
+
+function addDays(value, count) {
+  const date = parseDate(value);
+  date.setDate(date.getDate() + count);
+  const pad = (n) => String(n).padStart(2, '0');
+  return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(date.getDate())}`;
+}
+
+const daysLeft = (deadline) =>
+  Math.round((parseDate(deadline) - parseDate(todayString())) / 86400000);
+
+function deadlineLabel(deadline) {
+  const left = daysLeft(deadline);
+  if (left <= 0) return '今天截止';
+  if (left === 1) return '明天截止';
+  return `剩 ${left} 天`;
+}
+
+function upcomingItems(items, days = 14, limit = 20) {
+  const today = todayString();
+  const end = addDays(today, days);
+  return items
+    .filter((item) => item.deadline && item.deadline >= today && item.deadline <= end)
+    .sort((a, b) => a.deadline.localeCompare(b.deadline)
+      || (b.publish_date || '').localeCompare(a.publish_date || ''))
+    .slice(0, limit);
+}
+
+function reviewSection(week) {
+  const head = el('div', { class: 'sect__head' }, [
+    el('h2', { class: 'sect__title', text: '周报综述' }),
+    el('span', { class: 'sect__line' }),
+  ]);
+  if (!week) {
+    return el('section', { class: 'sect' }, [
+      head,
+      el('div', { class: 'card' }, [
+        el('p', { class: 'weekcard__text weekcard__text--muted', text: '周报每周一自动生成，生成后会在这里给出上周通知的综述。' }),
+      ]),
+    ]);
+  }
+
+  const stats = week.stats || {};
+  const card = el('div', { class: 'card' }, [
+    el('div', { class: 'weekcard__head' }, [
+      el('span', { class: 'weekcard__range', text: `${slashDate(week.weekStart)} ~ ${slashDate(week.weekEnd)}` }),
+      el('span', { class: 'weekcard__gen', text: week.generatedAt ? `${slashDate(week.generatedAt.slice(0, 10))} 生成` : '' }),
+    ]),
+    week.overview
+      ? el('p', { class: 'weekcard__text', text: week.overview })
+      : el('p', { class: 'weekcard__text weekcard__text--muted', text: '这一期综述未生成，下面的统计仍然可用。' }),
+    el('div', { class: 'weekcard__stats', text: `新增 ${stats.items || 0} 条 ｜ 重点 ${stats.highlight || 0} 条 ｜ 覆盖 ${stats.sources || 0} 个源 ｜ ${stats.days || 0} 天有更新` }),
+  ]);
+  const foot = [
+    ...(week.hotSources || []).map((entry) => el('span', { class: 'pill', text: `${entry.name} ${entry.count}` })),
+    ...(week.topTags || []).map((entry) => el('span', { class: 'pill pill--tag', text: `${entry.tag} ${entry.count}` })),
+  ];
+  if (foot.length) card.append(el('div', { class: 'card__foot' }, foot));
+  return el('section', { class: 'sect' }, [head, card]);
+}
+
+function weekStripSection(recent) {
+  if (!recent.length) return null;
+  const cells = recent.slice().reverse().map((entry) => el('button', {
+    class: entry.itemCount ? 'weekgrid__cell' : 'weekgrid__cell weekgrid__cell--zero',
+    type: 'button',
+    'aria-label': `${entry.date} ${entry.itemCount ? `新增 ${entry.itemCount} 条` : '无新增'}`,
+    onClick: () => setHash(`/day/${entry.date}`),
+  }, [
+    el('span', { class: 'weekgrid__day', text: String(Number(entry.date.slice(8, 10))) }),
+    el('span', { class: 'weekgrid__week', text: weekday(entry.date).slice(1) }),
+    el('span', { class: 'weekgrid__n', text: entry.itemCount ? String(entry.itemCount) : '—' }),
+    entry.highlightCount ? el('span', { class: 'weekgrid__star', text: `★ ${entry.highlightCount}` }) : null,
+  ]));
+  return el('section', { class: 'sect' }, [
+    el('div', { class: 'sect__head' }, [
+      el('h2', { class: 'sect__title', text: '近 7 天' }),
+      el('span', { class: 'sect__line' }),
+    ]),
+    el('div', { class: 'card' }, [el('div', { class: 'weekgrid' }, cells)]),
+  ]);
+}
+
+function upcomingSection(items) {
+  const list = upcomingItems(items);
+  if (!list.length) return null;
+  return el('section', { class: 'sect' }, [
+    el('div', { class: 'sect__head' }, [
+      el('h2', { class: 'sect__title', text: '⏰ 即将截止' }),
+      el('span', { class: 'sect__count', text: `未来 14 天 · ${list.length} 条` }),
+      el('span', { class: 'sect__line' }),
+    ]),
+    el('div', { class: 'card' }, [
+      el('ul', { class: 'hl-list' }, list.map((item) => el('li', { class: 'hl' }, [
+        el('a', { class: 'hl__title', href: item.url, target: '_blank', rel: 'noreferrer noopener', text: item.title }),
+        el('div', { class: 'hl__meta' }, [
+          el('span', { text: item.source }),
+          el('span', { class: 'pill pill--deadline', text: `${slashDate(item.deadline)} 截止` }),
+          el('span', {
+            class: daysLeft(item.deadline) <= 3 ? 'pill pill--urgent' : 'pill',
+            text: deadlineLabel(item.deadline),
+          }),
+        ]),
+      ]))),
+    ]),
+  ]);
+}
+
+function weekHighlightSection(items) {
+  const list = items
+    .filter((item) => item.highlight)
+    .sort((a, b) => (a.deadline || '9999').localeCompare(b.deadline || '9999')
+      || (b.date || '').localeCompare(a.date || ''))
+    .slice(0, 20);
+  if (!list.length) return null;
+  return el('section', { class: 'sect sect--star' }, [
+    el('div', { class: 'sect__head' }, [
+      el('h2', { class: 'sect__title', text: '★ 本周重点' }),
+      el('span', { class: 'sect__count', text: `${list.length} 条` }),
+      el('span', { class: 'sect__line' }),
+    ]),
+    el('div', { class: 'card' }, [
+      el('ul', { class: 'hl-list' }, list.map((item) => el('li', { class: 'hl' }, [
+        el('a', { class: 'hl__title', href: item.url, target: '_blank', rel: 'noreferrer noopener', text: item.title }),
+        el('div', { class: 'hl__meta' }, [
+          el('span', { text: item.source }),
+          el('span', { text: slashDate(item.date) }),
+          item.deadline
+            ? el('span', { class: 'pill pill--deadline', text: `截止 ${slashDate(item.deadline)}` })
+            : null,
+          item.highlight_reason ? el('span', { text: item.highlight_reason }) : null,
+        ]),
+      ]))),
+    ]),
+  ]);
+}
+
+function sourceDistSection(items) {
+  const counts = new Map();
+  for (const item of items) counts.set(item.source, (counts.get(item.source) || 0) + 1);
+  const rows = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], 'zh'));
+  if (!rows.length) return null;
+  const max = rows[0][1];
+  return el('section', { class: 'sect' }, [
+    el('div', { class: 'sect__head' }, [
+      el('h2', { class: 'sect__title', text: '来源分布' }),
+      el('span', { class: 'sect__line' }),
+    ]),
+    el('div', { class: 'card' }, [
+      el('ul', { class: 'dist' }, rows.map(([name, count]) => el('li', { class: 'dist__row' }, [
+        el('span', { class: 'dist__name', text: name }),
+        el('span', { class: 'dist__track' }, [
+          el('span', { class: 'dist__fill', style: `width:${Math.round((count / max) * 100)}%` }),
+        ]),
+        el('span', { class: 'dist__n', text: String(count) }),
+      ]))),
+    ]),
+  ]);
+}
+
+function weekView(week, items, days) {
+  const recent = days.slice(0, 7);
+  const window = new Set(recent.map((entry) => entry.date));
+  const recentItems = items.filter((item) => window.has(item.date));
+  const newCount = recent.reduce((sum, entry) => sum + (entry.itemCount || 0), 0);
+  const highlightCount = recent.reduce((sum, entry) => sum + (entry.highlightCount || 0), 0);
+  const sourceCount = new Set(recentItems.map((item) => item.source)).size;
+  const range = recent.length
+    ? `${slashDate(recent[recent.length - 1].date)} ~ ${slashDate(recent[0].date)}`
+    : '';
+
+  const node = el('div', {});
+  node.append(el('div', { class: 'dayhead' }, [
+    el('div', { class: 'dayhead__row' }, [
+      el('div', { class: 'dayhead__date' }, ['本周', range ? el('small', { text: range }) : null]),
+    ]),
+    el('div', {
+      class: 'dayhead__stat',
+      text: `近 7 天 ｜ 新增 ${newCount} 条 ｜ 重点 ${highlightCount} 条 ｜ 覆盖 ${sourceCount} 个源`,
+    }),
+    el('div', { class: 'pager' }, [
+      el('button', { class: 'pager__btn', type: 'button', text: '刷新', onClick: () => render(true) }),
+    ]),
+  ]));
+
+  if (!recentItems.length) {
+    node.append(el('div', { class: 'state state--empty' }, [
+      el('p', { class: 'state__title', text: '最近 7 天没有新增' }),
+      el('p', { text: '爬虫每天定时运行，有新的公开通知时会出现在这里。' }),
+    ]));
+    node.append(reviewSection(week));
+    return node;
+  }
+
+  node.append(reviewSection(week));
+  node.append(weekStripSection(recent));
+  const upcoming = upcomingSection(items);
+  if (upcoming) node.append(upcoming);
+  const star = weekHighlightSection(recentItems);
+  if (star) node.append(star);
+  node.append(sourceDistSection(recentItems));
+  return node;
+}
+
 /* ---------- 渲染入口 ---------- */
 
 async function render(force = false) {
@@ -576,6 +785,24 @@ async function render(force = false) {
       return;
     }
 
+    if (route.name === 'week') {
+      document.title = '本周 · 南大信息日报';
+      if (!state.week.items || !state.week.data || force || !state.days) {
+        showLoading();
+        const daysPromise = state.days && !force ? Promise.resolve(null) : load('index', { limit: '60' });
+        const [daysResult, windowItems, week] = await Promise.all([
+          daysPromise,
+          readWindow(60, 400),
+          readWeek(),
+        ]);
+        if (token !== state.token) return;
+        if (daysResult) state.days = Array.isArray(daysResult.days) ? daysResult.days : [];
+        state.week = { data: week, items: windowItems };
+      }
+      view.replaceChildren(weekView(state.week.data, state.week.items, state.days || []));
+      return;
+    }
+
     if (route.name === 'search') {
       document.title = '搜索 · 南大信息日报';
       if (!route.q) {
@@ -593,22 +820,17 @@ async function render(force = false) {
       return;
     }
 
-    const wantDate = route.name === 'day' ? route.date : null;
-    const needDay = force || !state.day || (wantDate ? state.day.date !== wantDate : false);
+    const wantDate = route.name === 'day' ? route.date : 'latest';
+    const needDay = force || !state.day || state.daySource !== wantDate;
     if (needDay || !state.days) {
       showLoading();
       const daysPromise = state.days && !force ? Promise.resolve(null) : load('index', { limit: '60' });
-      const dayPromise = wantDate ? load('day', { date: wantDate }) : load('latest');
+      const dayPromise = wantDate === 'latest' ? load('latest') : load('day', { date: wantDate });
       const [daysResult, dayResult] = await Promise.all([daysPromise, dayPromise]);
       if (token !== state.token) return;
       if (daysResult) state.days = Array.isArray(daysResult.days) ? daysResult.days : [];
       state.day = dayResult.day;
-      state.filters = { q: '', source: '', tag: '', star: false };
-    } else if (wantDate && state.day.date !== wantDate) {
-      showLoading();
-      const result = await load('day', { date: wantDate });
-      if (token !== state.token) return;
-      state.day = result.day;
+      state.daySource = wantDate;
       state.filters = { q: '', source: '', tag: '', star: false };
     }
     document.title = `${slashDate(state.day.date)} · 南大信息日报`;

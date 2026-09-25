@@ -1,6 +1,6 @@
 {
   "date": "2026-09-23",
-  "generatedAt": "2026-09-25T20:26:08+08:00",
+  "generatedAt": "2026-09-25T22:47:03+08:00",
   "stats": {
     "new": 4,
     "updated": 0,
@@ -16,15 +16,15 @@
           "title": "【法国-本科生、硕士生】2027年春季学期艾克斯马赛大学交换项目通知",
           "url": "https://stuex.nju.edu.cn/e3/ff/c2539a844799/page.htm",
           "publish_date": "2026-09-23",
-          "summary": "南大本科生、硕士生可申请2027春季艾克斯马赛大学交换，需法语B1，9月30日前校内报名。",
+          "summary": "南大本科生、硕士生可申请2027年春季艾克斯马赛大学交换，需法语B1，校内截止9月30日。",
           "tags": [
             "交换",
             "报名",
-            "手续"
+            "学业"
           ],
           "deadline": "2026-09-30",
           "highlight": true,
-          "highlight_reason": "有校内报名截止日期",
+          "highlight_reason": "有报名截止日期",
           "status": "new",
           "body_state": "ok",
           "attachments": [
@@ -39,15 +39,15 @@
           "title": "【法国-本科生】2027年春季学期巴黎政治大学交换项目通知",
           "url": "https://stuex.nju.edu.cn/e3/f6/c2539a844790/page.htm",
           "publish_date": "2026-09-23",
-          "summary": "南大本科生可申请2027春季巴黎政治大学交换，需雅思6.5或托福100，9月30日前校内报名。",
+          "summary": "南大本科生可申请2027年春季巴黎政治大学交换，需雅思6.5或托福100，校内截止9月30日。",
           "tags": [
             "交换",
             "报名",
-            "手续"
+            "学业"
           ],
           "deadline": "2026-09-30",
           "highlight": true,
-          "highlight_reason": "有校内报名截止日期",
+          "highlight_reason": "有报名截止日期",
           "status": "new",
           "body_state": "ok",
           "attachments": [
@@ -62,15 +62,15 @@
           "title": "【韩国-本科生】2027年春季学期韩国中央大学交换项目通知",
           "url": "https://stuex.nju.edu.cn/e3/e9/c2539a844777/page.htm",
           "publish_date": "2026-09-23",
-          "summary": "南大本科生可申请2027春季韩国中央大学交换，免学费，9月30日前校内报名。",
+          "summary": "南大本科生可申请2027年春季韩国中央大学交换，免学费，校内截止9月30日。",
           "tags": [
             "交换",
             "报名",
-            "手续"
+            "学业"
           ],
           "deadline": "2026-09-30",
           "highlight": true,
-          "highlight_reason": "有校内报名截止日期",
+          "highlight_reason": "有报名截止日期",
           "status": "new",
           "body_state": "ok",
           "attachments": [
@@ -93,12 +93,11 @@
           "publish_date": "2026-09-23",
           "summary": "“南雍杯”传统诗词创作大赛面向南大在校生、校友及校外青年征稿，10月15日截止。",
           "tags": [
-            "竞赛",
-            "报名"
+            "竞赛"
           ],
           "deadline": "2026-10-15",
           "highlight": true,
-          "highlight_reason": "有征稿截止日期",
+          "highlight_reason": "有投稿截止日期",
           "status": "new",
           "body_state": "ok",
           "attachments": []
