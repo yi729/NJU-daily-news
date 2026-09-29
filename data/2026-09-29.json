@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-29",
+  "generatedAt": "2026-09-29T12:46:59+08:00",
+  "stats": {
+    "new": 1,
+    "updated": 0,
+    "sources": 1
+  },
+  "sources": [
+    {
+      "name": "教务处",
+      "column": "公告通知",
+      "items": [
+        {
+          "item_key": "c26263a845152",
+          "title": "【补采】2027届普通全日制本科毕业生图像采集秋期补采通知",
+          "url": "https://jw.nju.edu.cn/e5/60/c26263a845152/page.htm",
+          "publish_date": "2026-09-29",
+          "summary": "2027届本科毕业生图像补采，未采集或不合格者须于10月8日起线上或11日集中采集。",
+          "tags": [
+            "手续",
+            "学业",
+            "事务"
+          ],
+          "deadline": "2026-10-08",
+          "highlight": true,
+          "highlight_reason": "涉及毕业证学位证图像采集",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "portals": [
+    {
+      "name": "教务处",
+      "column": "公告通知",
+      "url": "https://jw.nju.edu.cn/ggtz/list.htm",
+      "login": false
+    },
+    {
+      "name": "学生交流办公室",
+      "column": "通知通告",
+      "url": "https://stuex.nju.edu.cn/2539/list.htm",
+      "login": false
+    },
+    {
+      "name": "五育",
+      "column": "活动报名",
+      "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+      "login": true
+    },
+    {
+      "name": "志愿服务",
+      "column": "活动中心",
+      "url": "https://youth.nju.edu.cn/tw/#/legacy?target=/zyz/hdzx&me=MGRmODJjNmEtOTNiZi00MjJjLTk3MWEtMTJmOTdhZjIzYmRj",
+      "login": true
+    },
+    {
+      "name": "选课批次",
+      "column": "选课公告",
+      "url": "https://xk.nju.edu.cn/",
+      "login": false
+    },
+    {
+      "name": "选课公告",
+      "column": "选课公告",
+      "url": "https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/*default/publicinfo.do?type=notice",
+      "login": false
+    },
+    {
+      "name": "办事大厅通知",
+      "column": "通知公告",
+      "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do",
+      "login": true
+    },
+    {
+      "name": "教服平台通知",
+      "column": "通知公告",
+      "url": "https://ehall.nju.edu.cn/portal/html/select_role.html?appId=7170579276974719",
+      "login": true
+    }
+  ],
+  "errors": [
+    {
+      "source": "五育",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "志愿服务",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "办事大厅通知",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "教服平台通知",
+      "reason": "会话已失效"
+    }
+  ]
+}
