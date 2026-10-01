@@ -856,7 +856,7 @@ function lecturesView(data) {
   if (!items.length) {
     node.append(el('div', { class: 'state state--empty' }, [
       el('p', { class: 'state__title', text: '还没有讲座数据' }),
-      el('p', { text: '爬虫每天从数学、物理、历史学院的官网讲座栏目汇总讲座预告；已结束的讲座会自动下架，新的预告会出现在这里。' }),
+      el('p', { text: '爬虫每天从各院系官网的讲座/学术活动栏目汇总讲座预告；已结束的讲座会自动下架，新的预告会出现在这里。' }),
     ]));
     return node;
   }
