@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-01T20:37:14",
+  "generatedAt": "2026-10-01T21:46:37",
   "days": [
     {
       "date": "2026-10-01",
-      "newCount": 1,
+      "newCount": 110,
       "updatedCount": 0,
-      "itemCount": 1,
-      "highlightCount": 0,
-      "generatedAt": "2026-10-01T20:37:14+08:00"
+      "itemCount": 110,
+      "highlightCount": 50,
+      "generatedAt": "2026-10-01T21:46:37+08:00"
     },
     {
       "date": "2026-09-30",

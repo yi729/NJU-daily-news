@@ -1,12 +1,1717 @@
 {
   "date": "2026-10-01",
-  "generatedAt": "2026-10-01T20:37:14+08:00",
+  "generatedAt": "2026-10-01T21:46:37+08:00",
   "stats": {
-    "new": 1,
+    "new": 110,
     "updated": 0,
-    "sources": 1
+    "sources": 3
   },
   "sources": [
+    {
+      "name": "五育",
+      "column": "活动报名",
+      "items": [
+        {
+          "item_key": "ndwy:38279452172",
+          "title": "护航添彩·安质课堂——南大记忆综合运营实操",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-02",
+          "summary": "南大记忆综合运营实操活动，面向学生参与文创产品包装、货架整理与店铺服务。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-01",
+          "highlight": true,
+          "highlight_reason": "需报名参与实践活动",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452173",
+          "title": "护航添彩·安质课堂——南大记忆综合运营实操",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-03",
+          "summary": "南大记忆综合运营实操活动，面向学生参与文创产品包装、货架整理与店铺服务。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-02",
+          "highlight": true,
+          "highlight_reason": "需报名参与实践活动",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452088",
+          "title": "护航添彩·安质课堂——南大教超运营基础实践",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-03",
+          "summary": "南大教超运营基础实践，面向学生学习安全质量管理制度并参与检查实践。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-02",
+          "highlight": true,
+          "highlight_reason": "需报名参与实践活动",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452087",
+          "title": "护航添彩·安质课堂——南大教超运营基础实践",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-03",
+          "summary": "南大教超运营基础实践，面向学生学习安全质量管理制度并参与检查实践。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-02",
+          "highlight": true,
+          "highlight_reason": "需报名参与实践活动",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452138",
+          "title": "金风遇“南”，秋韵满“苑”",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-02",
+          "summary": "金风遇南秋韵满苑餐饮劳动实践，面向学生参与餐前准备、餐中服务与餐后整理。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-02",
+          "highlight": true,
+          "highlight_reason": "需报名参与劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452139",
+          "title": "南苑劳动实践，金秋校园共筑",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-02",
+          "summary": "南苑会议中心房务部劳动实践，面向学生报名参与公区环境维护，10月2日起可选时段参加。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-02",
+          "highlight": true,
+          "highlight_reason": "需报名参与劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452174",
+          "title": "护航添彩·安质课堂——南大记忆综合运营实操",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-04",
+          "summary": "南大记忆文创运营实操招募，学习文创品类与店铺服务，参与包装、陈列整理等工作。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-03",
+          "highlight": true,
+          "highlight_reason": "需报名参加实操活动",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452140",
+          "title": "金风遇“南”，秋韵满“苑”",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-03",
+          "summary": "金风遇南秋韵满苑餐饮劳动实践，面向学生参与餐前准备、餐中服务与餐后整理。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-03",
+          "highlight": true,
+          "highlight_reason": "需报名参与劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452141",
+          "title": "南苑劳动实践，金秋校园共筑",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-03",
+          "summary": "南苑会议中心房务部劳动实践，面向学生报名参与公区环境维护，10月3日起可选时段参加。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-03",
+          "highlight": true,
+          "highlight_reason": "需报名参与劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452175",
+          "title": "护航添彩·安质课堂——南大记忆综合运营实操",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-05",
+          "summary": "南大记忆文创运营实操招募，学习文创品类与店铺服务，参与包装、陈列整理等工作。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-04",
+          "highlight": true,
+          "highlight_reason": "需报名参加实操活动",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452090",
+          "title": "护航添彩·安质课堂——南大教超运营基础实践",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-05",
+          "summary": "南大教超安质课堂实践招募，学习安全质量管理制度并参与商品陈列、服务等检查实践。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-04",
+          "highlight": true,
+          "highlight_reason": "需报名参加实践活动",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452089",
+          "title": "护航添彩·安质课堂——南大教超运营基础实践",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-05",
+          "summary": "南大教超安质课堂实践招募，学习安全质量管理制度并参与商品陈列、服务等检查实践。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-04",
+          "highlight": true,
+          "highlight_reason": "需报名参加实践活动",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452142",
+          "title": "金风遇“南”，秋韵满“苑”",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-04",
+          "summary": "南苑餐饮劳动实践招募，负责餐前准备、餐中服务与餐后整理，需按时到岗并注意着装。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-04",
+          "highlight": true,
+          "highlight_reason": "需报名参加劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452143",
+          "title": "南苑劳动实践，金秋校园共筑",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-04",
+          "summary": "南苑会议中心房务部劳动实践，面向学生报名参与公区环境维护，10月4日起可选时段参加。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-04",
+          "highlight": true,
+          "highlight_reason": "需报名参与劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452176",
+          "title": "护航添彩·安质课堂——南大记忆综合运营实操",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-06",
+          "summary": "南大记忆综合运营实操招募，学生了解文创产品品类并参与包装、货架整理与店铺服务。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-05",
+          "highlight": true,
+          "highlight_reason": "需报名参加运营实操",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452092",
+          "title": "护航添彩·安质课堂——南大教超运营基础实践",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-06",
+          "summary": "南大教超安质课堂招募，学生学习安全质量管理制度并参与检查实践，涉及商品陈列与服务技能。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-05",
+          "highlight": true,
+          "highlight_reason": "需报名参加实践活动",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452091",
+          "title": "护航添彩·安质课堂——南大教超运营基础实践",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-06",
+          "summary": "南大教超安质课堂实践招募，学习安全质量管理制度并参与商品陈列、服务等检查实践。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-05",
+          "highlight": true,
+          "highlight_reason": "需报名参加实践活动",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452144",
+          "title": "金风遇“南”，秋韵满“苑”",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-05",
+          "summary": "南苑餐饮劳动实践招募，负责餐前准备、餐中服务与餐后整理，需按时到岗并注意着装。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-05",
+          "highlight": true,
+          "highlight_reason": "需报名参加劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452145",
+          "title": "南苑劳动实践，金秋校园共筑",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-05",
+          "summary": "南苑会议中心房务部劳动实践招募，参观公区并实践环境维护，可选时段参加。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-05",
+          "highlight": true,
+          "highlight_reason": "需报名参加劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452094",
+          "title": "护航添彩·安质课堂——南大教超运营基础实践",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-07",
+          "summary": "南大教超安质课堂招募，学生学习安全质量管理制度并参与检查实践，涉及商品陈列与服务技能。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-06",
+          "highlight": true,
+          "highlight_reason": "需报名参加实践活动",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452093",
+          "title": "护航添彩·安质课堂——南大教超运营基础实践",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-07",
+          "summary": "南大教超安质课堂招募，学生学习安全质量管理制度并参与检查实践，涉及商品陈列与服务技能。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-06",
+          "highlight": true,
+          "highlight_reason": "需报名参加实践活动",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452146",
+          "title": "金风遇“南”，秋韵满“苑”",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-06",
+          "summary": "南苑餐饮劳动实践招募，负责餐前准备、餐中服务与餐后整理，需按时到岗并注意着装。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-06",
+          "highlight": true,
+          "highlight_reason": "需报名参加劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452147",
+          "title": "南苑劳动实践，金秋校园共筑",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-06",
+          "summary": "南苑会议中心房务部劳动实践招募，参观公区并实践环境维护，可选时段参加。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-06",
+          "highlight": true,
+          "highlight_reason": "需报名参加劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452095",
+          "title": "护航添彩·安质课堂——南大教超运营基础实践",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-08",
+          "summary": "南大教超安质课堂招募，学生学习安全质量管理制度并参与检查实践，涉及商品陈列与服务技能。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-07",
+          "highlight": true,
+          "highlight_reason": "需报名参加实践活动",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452036",
+          "title": "【诚计划】第220期讲座——系统生成论 系统科学的范式转换与AI时代的科学基础",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-07",
+          "summary": "诚计划第220期讲座，面向校友、校内学生及高中生，主题为系统生成论与AI时代科学基础。",
+          "tags": [
+            "讲座",
+            "学业"
+          ],
+          "deadline": "2026-10-07",
+          "highlight": true,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452148",
+          "title": "金风遇“南”，秋韵满“苑”",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-07",
+          "summary": "南苑餐厅劳动实践招募，学生参与餐前准备、餐中服务与餐后整理，需按时到岗并注意着装。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-07",
+          "highlight": true,
+          "highlight_reason": "需报名参加劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452149",
+          "title": "南苑劳动实践，金秋校园共筑",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-07",
+          "summary": "南苑会议中心房务部劳动实践招募，学生参观公区并学习实践环境维护，可选时段参加。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-07",
+          "highlight": true,
+          "highlight_reason": "需报名参加劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452150",
+          "title": "金风遇“南”，秋韵满“苑”",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-08",
+          "summary": "南苑餐厅劳动实践招募，学生参与餐前准备、餐中服务与餐后整理，需按时到岗并注意着装。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-08",
+          "highlight": true,
+          "highlight_reason": "需报名参加劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452151",
+          "title": "南苑劳动实践，金秋校园共筑",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-08",
+          "summary": "南苑会议中心房务部劳动实践招募，学生参观公区并学习实践环境维护，可选时段参加。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-08",
+          "highlight": true,
+          "highlight_reason": "需报名参加劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452177",
+          "title": "金风遇“南”，秋韵满“苑”",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-11",
+          "summary": "南苑餐厅劳动实践招募，学生参与餐前准备、餐中服务与餐后整理。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-11",
+          "highlight": true,
+          "highlight_reason": "需报名参与劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452178",
+          "title": "南苑劳动实践，金秋校园共筑",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-11",
+          "summary": "南苑会议中心房务部劳动实践，学生参观公区并实践环境维护。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-11",
+          "highlight": true,
+          "highlight_reason": "需报名参与劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452179",
+          "title": "金风遇“南”，秋韵满“苑”",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-12",
+          "summary": "南苑餐厅劳动实践招募，学生参与餐前准备、餐中服务与餐后整理。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-12",
+          "highlight": true,
+          "highlight_reason": "需报名参与劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452180",
+          "title": "南苑劳动实践，金秋校园共筑",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-12",
+          "summary": "南苑会议中心房务部劳动实践，学生参观公区并实践环境维护。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-12",
+          "highlight": true,
+          "highlight_reason": "需报名参与劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452122",
+          "title": "【诚计划】第221期讲座——不忘初心 牢记使命——中国共产党百年奋斗和经验",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-13",
+          "summary": "诚计划第221期讲座，面向校友及校内学生，讲述中国共产党百年奋斗与经验。",
+          "tags": [
+            "讲座"
+          ],
+          "deadline": "2026-10-13",
+          "highlight": true,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452181",
+          "title": "金风遇“南”，秋韵满“苑”",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-13",
+          "summary": "南苑餐厅劳动实践招募，学生参与餐前准备、餐中服务与餐后整理。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-13",
+          "highlight": true,
+          "highlight_reason": "需报名参与劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452182",
+          "title": "南苑劳动实践，金秋校园共筑",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-13",
+          "summary": "南苑会议中心房务部劳动实践，学生参观公区并实践环境维护。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-13",
+          "highlight": true,
+          "highlight_reason": "需报名参与劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452183",
+          "title": "金风遇“南”，秋韵满“苑”",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-14",
+          "summary": "南苑餐厅劳动实践招募，学生参与餐前准备、餐中服务与餐后整理。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-14",
+          "highlight": true,
+          "highlight_reason": "需报名参与劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452184",
+          "title": "南苑劳动实践，金秋校园共筑",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-14",
+          "summary": "南苑会议中心房务部劳动实践，学生参观公区并实践环境维护。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-10-14",
+          "highlight": true,
+          "highlight_reason": "需报名参与劳动实践",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452123",
+          "title": "【诚计划】第222期讲座——小孔道，大世界——“沸腾的石头”驱动现代工业革命",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-20",
+          "summary": "诚计划第222期讲座，面向校友及校内学生，介绍小孔道驱动现代工业革命。",
+          "tags": [
+            "讲座"
+          ],
+          "deadline": "2026-10-20",
+          "highlight": true,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452130",
+          "title": "护航添彩·安质课堂——南大记忆综合运营实操",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-08",
+          "summary": "南大记忆综合运营实操，面向学生，学习文创品类并参与包装、陈列与店铺服务。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-07",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452096",
+          "title": "护航添彩·安质课堂——南大教超运营基础实践",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-08",
+          "summary": "南大教超运营基础实践，面向学生，学习安全质量管理制度并参与检查实践。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-07",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452132",
+          "title": "护航添彩·安质课堂——南大记忆综合运营实操",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-09",
+          "summary": "南大记忆综合运营实操，面向学生，学习文创品类并参与包装、陈列与店铺服务。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-08",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452097",
+          "title": "护航添彩·安质课堂——南大教超食安监督管理",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-09",
+          "summary": "南大教超食安监督管理，面向学生，学习安全质量制度并参与食安检查实践。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-08",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452099",
+          "title": "护航添彩·安质课堂——南大教超运营基础实践",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-10",
+          "summary": "南大教超运营基础实践，面向学生，学习安全质量管理制度并参与检查实践。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-09",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452098",
+          "title": "护航添彩·安质课堂——南大教超运营基础实践",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-10",
+          "summary": "南大教超运营基础实践，面向学生，学习安全质量管理制度并参与检查实践。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-09",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452164",
+          "title": "金风遇“南”，秋韵满“苑”",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-09",
+          "summary": "金风遇南秋韵满苑劳动实践，面向学生，负责餐前准备、餐中服务与餐后整理。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-09",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452165",
+          "title": "南苑劳动实践，金秋校园共筑",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-09",
+          "summary": "南苑劳动实践，面向学生，参观公区并实践环境维护，可选时段参加。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-09",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452166",
+          "title": "金风遇“南”，秋韵满“苑”",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-10",
+          "summary": "金风遇南秋韵满苑劳动实践，面向学生，负责餐前准备、餐中服务与餐后整理。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-10",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ndwy:38279452167",
+          "title": "南苑劳动实践，金秋校园共筑",
+          "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+          "publish_date": "2026-10-10",
+          "summary": "南苑劳动实践，面向学生，参观公区并实践环境维护，可选时段参加。",
+          "tags": [
+            "报名"
+          ],
+          "deadline": "2026-10-10",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "办事大厅通知",
+      "column": "通知公告",
+      "items": [
+        {
+          "item_key": "ehall:5CB01B0028FC8479E0633D7EDBDBB39D",
+          "title": "【高压故障告知】2026年10月1日浦口校区高压进线高永线突发失电故障告知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/5CB01B0028FC8479E0633D7EDBDBB39D",
+          "publish_date": "2026-10-01",
+          "summary": "浦口校区高压进线失电故障告知，10月1日起正以低压联络方式恢复供电。",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": true,
+          "highlight_reason": "影响浦口校区供电",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:5C8A590645D26FDBE0633D7EDBDB72DC",
+          "title": "【高压故障告知】2026年9月29日供电公司九乡河变电站高压故障造成停电告知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/5C8A590645D26FDBE0633D7EDBDB72DC",
+          "publish_date": "2026-09-29",
+          "summary": "9月29日九乡河变电站高压故障致仙林校区大范围停电，正在恢复中。",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": true,
+          "highlight_reason": "突发停电影响校园生活",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:5C8270B15B7218C8E0633D7EDBDB6A27",
+          "title": "【停电通知】2026年9月30日仙林校区供电设备维护检修停电通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/5C8270B15B7218C8E0633D7EDBDB6A27",
+          "publish_date": "2026-09-28",
+          "summary": "9月30日仙林校区供电设备检修停电，涉及电子楼、09/10/11幢公寓及多个食堂。",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": true,
+          "highlight_reason": "停电影响宿舍与食堂",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:59C8A3CCC6E9C7A8E0633C7EDBDB70BA",
+          "title": "【通知】关于2027年大学生医保参保相关工作的通知",
+          "url": "https://hospital.nju.edu.cn//xwgg/ggtz/20260824/i414194.html",
+          "publish_date": "2026-08-24",
+          "summary": "南京大学医院发布2027年大学生医保参保相关工作通知，请同学关注办理。",
+          "tags": [
+            "手续",
+            "事务",
+            "资助"
+          ],
+          "deadline": "",
+          "highlight": true,
+          "highlight_reason": "医保参保涉及切身事务",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:598A5DEB900A00D7E0633C7EDBDBC011",
+          "title": "【通知】关于新生体检期间校医院暂停门诊的通知",
+          "url": "https://hospital.nju.edu.cn//xwgg/ggtz/20260821/i413288.html",
+          "publish_date": "2026-08-21",
+          "summary": "南京大学医院",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": true,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:591880ED4D2B1E9DE0633C7EDBDB71E2",
+          "title": "【绿化作业通知】2026年8月18日至8月22日浦口校区学生宿舍院内打草",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/591880ED4D2B1E9DE0633C7EDBDB71E2",
+          "publish_date": "2026-08-17",
+          "summary": "后勤服务集团 · 为给大家提供一个优美、舒适的校园环境，本中心将于2026年8月18日至8月22日（本周周二至周六），对浦口校区学生公寓13-21栋院内及周围的草坪进行修剪。本次绿化作业具体时间为上午9:00-10:30，下午14:00-16:30。烦请过往师生注意避行，由此给您",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": true,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:5911A7326CF666A2E0633D7EDBDB1BA1",
+          "title": "【告知】8月17日至8月19日林校区学生宿舍楼第31-32幢项目夜间施工通告",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/5911A7326CF666A2E0633D7EDBDB1BA1",
+          "publish_date": "2026-08-15",
+          "summary": "基本建设处 · 各位老师、同学：受施工工序及土方外运条件限制，仙林校区学生宿舍楼第31‑32幢项目，计划于2026年8月17日至8月19日开展夜间土方外运作业，每日施工时间延长至夜间23:30。现场施工如有违规情况，可拨打监督电话（18305193332陈工，1395199968",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": true,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:573FF4394C2933DBE0633D7EDBDBF8C3",
+          "title": "【告知】仙林校区学生宿舍楼第28-30幢项目混凝土施工告知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/573FF4394C2933DBE0633D7EDBDBF8C3",
+          "publish_date": "2026-07-27",
+          "summary": "基本建设处 · 各位老师、同学：仙林校区学生宿舍楼第28-30幢项目拟于7月27日-8月3日进行地下室金刚砂耐磨地面混凝土浇筑工作，因混凝土收面浇筑连续施工工艺要求，需进行连续施工，作业时间为7：30至22:00，施工期间将对大家午间、晚间休息造成影响，敬请谅解。现场施工如有违规",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": true,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:56BA50C2B1067F00E0633D7EDBDB2648",
+          "title": "【通知】关于7月20日0点至3点苏州校区诚园学生宿舍弱电间设备维护的通知",
+          "url": "https://itsc.nju.edu.cn/cf/0d/c21415a839437/page.htm",
+          "publish_date": "2026-07-16",
+          "summary": "信息化建设管理服务中心",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": true,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:563EB443517E6C1EE0633D7EDBDBFDC8",
+          "title": "【告知】7月11日至13日仙林校区学生宿舍楼第31-32幢项目夜间施工通告",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/563EB443517E6C1EE0633D7EDBDBFDC8",
+          "publish_date": "2026-07-10",
+          "summary": "基本建设处 · 各位老师、同学：因生产工艺要求仙林校区学生宿舍楼第31-32幢项目拟定于2026年7月11日22时至2026年7月13日6时连续开展土方外运施工，如遇台风影响夜间施工暂停。施工期间将对大家晚间休息造成影响，敬请谅解。现场施工如有违规情况，可拨打监督电话（18305",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": true,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:563C53F86468FE1BE0633C7EDBDB4A40",
+          "title": "【绿化作业通知】 2026年7月13日至7月17日浦口校区学生宿舍院内打草通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/563C53F86468FE1BE0633C7EDBDB4A40",
+          "publish_date": "2026-07-10",
+          "summary": "后勤服务集团 · 为给大家提供一个优美、舒适的校园环境，本中心将于2026年7月13日至7月17日（周一至周五），对浦口校区学生公寓12-21栋院内及周围的草坪进行修剪。本次绿化作业具体时间为上午9:00-10:30，下午14:00-16:30。烦请过往师生注意避行，由此给您带来",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": true,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:5C9B4B59DFB1CE94E0633D7EDBDBA82C",
+          "title": "【告知】10月1日至7日鼓楼校区修缮项目18—19舍混凝土施工告知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/5C9B4B59DFB1CE94E0633D7EDBDBA82C",
+          "publish_date": "2026-09-29",
+          "summary": "鼓楼校区18—19舍10月1日至7日加固混凝土浇筑施工，可能产生噪声振动，请同学谅解。",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:5C97E02F369CC09BE0633D7EDBDBDBE8",
+          "title": "关于仙林校区游泳馆10月1日至4日调整开放时间的公告",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/5C97E02F369CC09BE0633D7EDBDBDBE8",
+          "publish_date": "2026-09-29",
+          "summary": "仙林校区游泳馆10月1日至4日施工暂停开放，10月5日起12:00～21:30恢复。",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:5C9A7CD07E845BFDE0633D7EDBDB5E83",
+          "title": "国庆期间部分楼宇电梯开放调整公告",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/5C9A7CD07E845BFDE0633D7EDBDB5E83",
+          "publish_date": "2026-09-29",
+          "summary": "国庆10月1日至7日部分楼宇电梯优化调整，部分电梯关闭，10月8日全部恢复。",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:5C38BBB432146E71E0633C7EDBDBB5D8",
+          "title": "【告知】近期仙林校区学科综合楼、物质科学楼、生命健康科创楼项目混凝土施工告知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/5C38BBB432146E71E0633C7EDBDBB5D8",
+          "publish_date": "2026-09-27",
+          "summary": "仙林校区三栋新建楼9月28日及10月1日两次混凝土浇筑，午晚间施工有噪声。",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:59EF814FAD0EA0A2E0633C7EDBDB08A3",
+          "title": "【停水通知】2026年8月27日鼓楼校区陶园01幢停水通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/59EF814FAD0EA0A2E0633C7EDBDB08A3",
+          "publish_date": "2026-08-26",
+          "summary": "鼓楼校区陶园01幢8月27日9:00～13:00更换阀门停水，1-3层暂停供水。",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:59EF8094340C0324E0633C7EDBDB75D4",
+          "title": "【停电通知】2026年8月30日鼓楼校区曾宪梓楼5楼停电通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/59EF8094340C0324E0633C7EDBDB75D4",
+          "publish_date": "2026-08-26",
+          "summary": "鼓楼校区曾宪梓楼5楼8月30日9:00～12:00改接电源停电。",
+          "tags": [
+            "事务"
+          ],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:598A8C96E40009ECE0633D7EDBDB119E",
+          "title": "【告知】 关于仙林校区公共教学楼暑期及后续施工安排的告知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/598A8C96E40009ECE0633D7EDBDB119E",
+          "publish_date": "2026-08-22",
+          "summary": "仙林校区公共教学楼改造基本完成，开学后零星收尾施工错开教学时段进行。",
+          "tags": [
+            "学业",
+            "事务",
+            "选课"
+          ],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:59119E5690576493E0633D7EDBDBA899",
+          "title": "【通知】关于8月19日凌晨0点至2点校园网核心设备升级的通知",
+          "url": "https://itsc.nju.edu.cn/d6/41/c21415a841281/page.htm",
+          "publish_date": "2026-08-17",
+          "summary": "信息化建设管理服务中心",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:593B64190F565410E0633C7EDBDB20FE",
+          "title": "关于南京大学仙林校区体育馆变电所增容改造工程 方肇周体育馆5号门西侧广场局部围挡延期拆除的通告",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/593B64190F565410E0633C7EDBDB20FE",
+          "publish_date": "2026-08-17",
+          "summary": "后勤服务集团 · 各位老师、各位同学：因仙林校区体育馆变电所增容改造工程建设延期送电，原定方肇周体育馆5号门西侧广场局部封闭围挡时间需延长，在此期间请过往的行人、车辆注意安全，减速绕行。围挡时间：2026年8月15日-8月27日，如遇雨天或活动影响，围挡将顺延。围挡期间有任何问题",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:5907CEB62F1334C3E0633C7EDBDBDC9A",
+          "title": "关于鼓楼、仙林、浦口三校区电动汽车充电桩施工公告",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/5907CEB62F1334C3E0633C7EDBDBDC9A",
+          "publish_date": "2026-08-17",
+          "summary": "后勤服务集团 · 关于鼓楼、仙林、浦口三校区电动汽车充电桩施工公告为切实满足广大师生员工对电动汽车充电的需求，经学校研究决定，自2026年8月17日至2026年9月10日对鼓楼、仙林、浦口三校区电动汽车充电桩设施进行施工，施工区域主要涉及鼓楼安中楼、南苑宾馆；仙林图书馆东北角、1",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:59392D88B40547B6E0633C7EDBDBC116",
+          "title": "【停水通知】2026年8月19日鼓楼校区南园部分区域停水通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/59392D88B40547B6E0633C7EDBDBC116",
+          "publish_date": "2026-08-17",
+          "summary": "后勤服务集团 · 各学院、单位：因鼓楼校区南园供水管网破损，需停水维修。受此影响，届时部分南园楼宇将暂停供水。停水期间带来不便，敬请谅解。请相关部门接此停水通知后互相转告，提前做好准备，感谢您的支持与配合。具体停水时间、范围如下：停水时间： 8月19日 08:00--17:00停",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:58C17EFF5F802B70E0633D7EDBDBD16B",
+          "title": "【告知】8月14日18:30到24:00曾宪梓楼停电通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/58C17EFF5F802B70E0633D7EDBDBD16B",
+          "publish_date": "2026-08-13",
+          "summary": "基本建设处 · 曾宪梓楼各单位：因曾宪梓楼母线故障，维修需要更换部分母线及开关，需暂停曾宪梓楼照明、插座的用电。具体停电计划安排如下。停电时间：2026年8月14日18:30到24:00 停电范围：曾宪梓楼全楼照明及插座用电请接此停电通知后互相转告，提前做好准备，感谢您的支持与配",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:58AD02848BB2BDF8E0633D7EDBDBAA8C",
+          "title": "【停水通知】2025年8月14日～15日鼓楼校区南园部分楼宇停水通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/58AD02848BB2BDF8E0633D7EDBDBAA8C",
+          "publish_date": "2026-08-11",
+          "summary": "后勤服务集团 · 各院系、单位：因鼓楼校区陶园02幢、陶园03幢、南园综合楼泵房水箱清洗消毒，需停水作业。受其影响届时部分楼宇将暂停供水，停水期间带来不便，敬请谅解。请相关部门接此停水通知后互相转告，提前做好准备，感谢您的支持与配合。具体停水时间、范围如下：停水时间：8月14日8",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:58270A30AA585731E0633D7EDBDB1DAC",
+          "title": "【停水通知】2026年8月10日鼓楼校区唐仲英楼停水通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/58270A30AA585731E0633D7EDBDB1DAC",
+          "publish_date": "2026-08-06",
+          "summary": "后勤服务集团 · 各院系、单位：因南京水务集团有限公司更换水表需停水作业，受其影响鼓楼校区唐仲英楼届时将暂停供水，停水期间带来不便，敬请谅解。请相关部门接此停水通知后互相转告，提前做好准备，感谢您的支持与配合。具体停水时间和范围安排如下：停水时间：8月10日7：30～9：00停水",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:58234280BB19845AE0633C7EDBDB8125",
+          "title": "【停电通知】2026年8月7日、8日南京大学苏州校区东区停电通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/58234280BB19845AE0633C7EDBDB8125",
+          "publish_date": "2026-08-04",
+          "summary": "苏州校区 · 各学院、单位：根据电力行业《电力设备预防性试验规程DL/T596-2021》要求，今年学校将开展周期预防性试验，为减少长时间停电试验对行政办公、教学、数据中心、食堂、学生宿舍的影响，苏州校区提前对相关回路设备进行负荷转供，届时将对各学院单位、楼宇、宿舍进行短时间停电",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:58224FD40B8FC3D0E0633C7EDBDB3C2D",
+          "title": "【停电通知】2026年8月6日南京大学苏州校区东区停电通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/58224FD40B8FC3D0E0633C7EDBDB3C2D",
+          "publish_date": "2026-08-04",
+          "summary": "苏州校区 · 各学院、单位： 根据电力行业《电力设备预防性试验规程DL/T596-2021》要求，今年学校将开展周期预防性试验，为减少长时间停电试验对教学科研的影响，苏州校区提前对相关回路设备进行负荷转供，届时将对各学院单位、楼宇进行短时间停电倒闸操作。【特别提醒】在负荷转供期间",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:57BFD082DFDA0CF3E0633D7EDBDBA313",
+          "title": "【通知】关于8月9日23:00-8月10日06:00对南京大学APP进行升级的通知",
+          "url": "https://itsc.nju.edu.cn/d3/fc/c21415a840700/page.htm",
+          "publish_date": "2026-07-31",
+          "summary": "信息化建设管理服务中心",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:57B97F0A41816B48E0633C7EDBDBCA2F",
+          "title": "【通知】关于8月2日0点至7点仙林与浦口校区DHCP及域名解析设备升级的通知",
+          "url": "https://itsc.nju.edu.cn/d3/fb/c21415a840699/page.htm",
+          "publish_date": "2026-07-31",
+          "summary": "信息化建设管理服务中心",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:57BFD082DFD80CF3E0633D7EDBDBA313",
+          "title": "【告知】浦口校区药学科研楼项目8月1日起至8月23日期间调整作业时间告知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/57BFD082DFD80CF3E0633D7EDBDBA313",
+          "publish_date": "2026-07-31",
+          "summary": "基本建设处 · 各位老师、同学：诚挚感谢大家对浦口校区药学科研楼项目开工建设以来所带来干扰的理解。目前项目已进展到桩基施工的重要阶段，为保障项目整体推进进度，现将项目8月底前作业时间调整通告如下，敬请大家知悉：浦口校区药学科研楼项目拟于8月1日起至8月23日期间调整作业时间，调整",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:5735B45B96CD6CDFE0633D7EDBDB3B38",
+          "title": "关于鼓楼校区苏浙运动场临时封闭的通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/5735B45B96CD6CDFE0633D7EDBDB3B38",
+          "publish_date": "2026-07-30",
+          "summary": "后勤服务集团 · 各位师生：根据学校工作安排，鼓楼校区苏浙运动场近期将举办体育赛事。为保障赛事安全、有序开展，将对相关区域进行临时封闭，具体如下：一、封闭时间2026年8月1日（星期六）15:00—19:00二、封闭区域鼓楼校区苏浙运动场三、相关须知1. 场地封闭期间，仅限本次赛",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:57B78249422D5639E0633D7EDBDB0DD2",
+          "title": "【通知】关于7月29日晚22:00-24:00对OA综合办公系统进行升级的通知",
+          "url": "https://itsc.nju.edu.cn/d3/83/c21415a840579/page.htm",
+          "publish_date": "2026-07-29",
+          "summary": "信息化建设管理服务中心",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:57A813297A8182AEE0633D7EDBDB9DCB",
+          "title": "【停电通知】2026年暑假仙林校区8月1日-2日供电设备维护检修停电通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/57A813297A8182AEE0633D7EDBDB9DCB",
+          "publish_date": "2026-07-29",
+          "summary": "后勤服务集团 · 各院系、单位：根据电力行业规范要求，为确保电力设备系统的安全可靠运行，提高供电设备的使用寿命和效率，故需例行对变电所供电设备进行停电检修维护。具体停电批次和计划安排如下：停电时间8月1日 7:30-10:30 停电场所生科楼变电所：生命科学学院（无锡楼）动物房变",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:5791A6CADD8D82B6E0633D7EDBDB8B89",
+          "title": "【绿化作业通知】关于7月30日仙林校区部分绿化区域病虫害防治工作的通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/5791A6CADD8D82B6E0633D7EDBDB8B89",
+          "publish_date": "2026-07-29",
+          "summary": "后勤服务集团 · 为扎实做好校园绿化养护管理工作，有效抑制植物病虫害滋生蔓延，持续营造整洁优美、舒适宜人的校园环境，我中心拟定于本周四（7月30日）对仙林校区菜根谭至学生公寓11幢周边、学生公寓8幢内庭院等绿化区域集中开展病虫害药剂防治工作（如遇下雨天气，考虑施药效果，作业时间将",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:57A85722C5141E3CE0633C7EDBDB2059",
+          "title": "【通告】关于仙林校区体育馆变电所增容改造工程方肇周体育馆5号门西侧道路封闭施工通告",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/57A85722C5141E3CE0633C7EDBDB2059",
+          "publish_date": "2026-07-28",
+          "summary": "后勤服务集团 · 各位老师、各位同学：因仙林校区体育馆变电所增容改造工程建设需要，拟于近日对方肇周体育馆5号门西侧广场局部封闭，在此期间请过往的行人、车辆注意安全，减速绕行。围挡时间：2026年7月28日-8月15日，如遇雨天或活动影响，工期将顺延。施工期间有任何问题可联系现场负",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:57615B82DB63CD26E0633C7EDBDB5B8E",
+          "title": "【停水通知】2026年7月28日～8月2日鼓楼校区部分楼宇停水通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/57615B82DB63CD26E0633C7EDBDB5B8E",
+          "publish_date": "2026-07-27",
+          "summary": "后勤服务集团 · 各院系、单位：因鼓楼校区安中楼、唐仲英楼、费彝民楼、曾宪梓楼泵房水箱清洗消毒作业，需停水作业。受其影响上述楼宇将暂停供水，停水期间带来不便，敬请谅解。请相关部门接此停水通知后互相转告，提前做好准备，感谢您的支持与配合。具体停水时间和范围安排如下：停水时间：7月2",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:56DEE3E58F8462D5E0633D7EDBDB544D",
+          "title": "【停电通知】2026年8月3日～5日浦口校区供电设备维护检修停电通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/56DEE3E58F8462D5E0633D7EDBDB544D",
+          "publish_date": "2026-07-24",
+          "summary": "后勤服务集团 · 各院系、单位：根据电力行业规范要求，为确保电力设备系统的安全可靠运行，提高供电设备的使用寿命和效率，故需例行对变电所供电设备进行停电检修维护。具体停电批次和计划安排如下： 停电时间：8月3日、4日 07:30～8:00停电场所：全校区停电时间：8月3日 8:30",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:5755A257A7D9760BE0633C7EDBDB0EA3",
+          "title": "【告知】鼓楼校区文物建筑日常维修工程（2025年度第二期）施工告知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/5755A257A7D9760BE0633C7EDBDB0EA3",
+          "publish_date": "2026-07-24",
+          "summary": "基本建设处 · 尊敬的老师、同学：鼓楼校区文物建筑日常维修工程（2025年度第二期）计划于2026年7月27日至2026年8月5日，对南京大学鼓楼校区《南园8舍》外墙涂料进行维修施工。平时施工时间：上午：7 : 30-- 12:00 下午：14:00—19:00节假日、双休日施工",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:56D2E98B1C7C15F3E0633D7EDBDB734A",
+          "title": "【停水通知】2026年7月25日-31日鼓楼校区停水通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/56D2E98B1C7C15F3E0633D7EDBDB734A",
+          "publish_date": "2026-07-22",
+          "summary": "后勤服务集团 · 各学院、单位：因鼓楼校区变电所开展三年周期预防性试验，需停电作业。受此影响，部分泵房将同步暂停供水。停水期间带来不便，敬请谅解。请相关部门接此停水通知后互相转告，提前做好准备，感谢您的支持与配合。具体停水时间、范围如下：停水时间： 7月25日 08:00--11",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:572A096D3B2831A1E0633D7EDBDB354C",
+          "title": "【停电通知】2026年7月25日-31日鼓楼校区停电通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/572A096D3B2831A1E0633D7EDBDB354C",
+          "publish_date": "2026-07-22",
+          "summary": "后勤服务集团 · 各学院、单位：根据电力行业《电力设备预防性试验规程 DL/T 596-2021》要求，今年学校将开展三年周期预防性试验，为减少长时间停电试验对教学科研的影响，我中心提前对相关回路设备进行负荷转供，届时将分批对各学院单位、楼宇进行短时停电倒闸操作（部分场所结合开展",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:571A4415555052D6E0633C7EDBDB0EF8",
+          "title": "【停电通知】2026年7月24日仙林校区停电通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/571A4415555052D6E0633C7EDBDB0EF8",
+          "publish_date": "2026-07-22",
+          "summary": "后勤服务集团 · 各学院、单位：根据电力行业规范要求，为确保电力设备系统的安全可靠运行，提高供电设备的使用寿命和效率，故需例行对变电所供电设备进行停电检修维护。具体停电批次和计划安排如下：停电时间：7月24日 7:00-11:00 停电场所：大数据变电所：大数据与人工智能科研楼、",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:57054AD9A4577503E0633D7EDBDB417D",
+          "title": "【停电通知】2026年7月22日鼓楼校区体育馆停电通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/57054AD9A4577503E0633D7EDBDB417D",
+          "publish_date": "2026-07-20",
+          "summary": "后勤服务集团 · 各院系、单位：因鼓楼校区体育馆更换供电设备需停电作业，届时将对体育馆进行停电。请鼓楼校区体育馆接此停电通知后提前做好准备。感谢支持与配合。如有相关事宜，请电话咨询：83592421。具体停电计划安排如下：停电时间：2026年7月22日7：00--17：00停电范",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:56CADEDF65FF5AF1E0633C7EDBDB2FD5",
+          "title": "【停水通知】2026年7月21～26日鼓楼校区部分楼宇停水通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/56CADEDF65FF5AF1E0633C7EDBDB2FD5",
+          "publish_date": "2026-07-20",
+          "summary": "后勤服务集团 · 各院系、单位：因鼓楼校区医学院、逸夫馆、逸夫管理科学楼、南大出版社泵房水箱清洗消毒，需停水作业。受其影响部分楼宇将暂停供水，停水期间带来不便，敬请谅解。请相关部门接此停水通知后互相转告，提前做好准备，感谢您的支持与配合。停水时间：7月21日8：00～14:00停",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:56C5EC77B5C18584E0633D7EDBDB37F1",
+          "title": "公告",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/56C5EC77B5C18584E0633D7EDBDB37F1",
+          "publish_date": "2026-07-20",
+          "summary": "后勤服务集团 · 因墙面维护施工需要，2026年7月21日起鼓楼校区吕志和游泳馆内部乒乓球室、健身房、体操房等场地暂停使用，预计7月26日恢复使用，望大家相互转告。不便之处敬请谅解！特此公告！ 物业中心 2026年7月20日",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:56C5EC77B5BA8584E0633D7EDBDB37F1",
+          "title": "关于仙林校区部分区域实行临时封闭管理的通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/56C5EC77B5BA8584E0633D7EDBDB37F1",
+          "publish_date": "2026-07-19",
+          "summary": "保卫处 · 各学院、各单位：2026年7月20日至23日，我校将承办第六届全国高校教师教学创新大赛。为确保活动顺利进行，逸夫楼周边区域将在活动期间实施临时封闭管理。一、封闭时间：2026年7月20日0:00至7月22日21:00。二、封闭区域：逸夫楼四周部分道路（详见封闭区域示意",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:56D100F7D53AE942E0633C7EDBDBB2C4",
+          "title": "【停水通知】2026年7月20日鼓楼校区南大出版社、逸夫管理科学楼停水通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/56D100F7D53AE942E0633C7EDBDBB2C4",
+          "publish_date": "2026-07-17",
+          "summary": "后勤服务集团 · 各学院、各单位：受鼓楼校区逸夫管理科学楼变电所停电调试总开关工作影响，部分楼宇将暂停供水，停水期间带来不便，敬请谅解。请相关部门接此停水通知后互相转告，提前做好准备，感谢您的支持与配合。停水时间：7月20日 20:00～22:00停水范围：鼓楼校区南大出版社、逸",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:56D0C58311443B4BE0633D7EDBDB254A",
+          "title": "【停电通知】2026年7月20日鼓楼校区逸夫管理科学楼变电所停电通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/56D0C58311443B4BE0633D7EDBDB254A",
+          "publish_date": "2026-07-17",
+          "summary": "后勤服务集团 · 各学院、各单位： 现逸夫管理科学楼变电所的设备更换工作已基本完成，现总开关的调试需要停电施工，届时将对部分楼宇进行停电，请相关学院、单位接此停电通知后互相转告，提前做好准备，感谢您的支持与配合。如有相关事宜，请电话咨询83621279、83593346。具体停电",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:56AA9CD7CD573905E0633D7EDBDBC9B5",
+          "title": "【停水通知】2026年7月18日鼓楼校区南园部分楼宇停水通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/56AA9CD7CD573905E0633D7EDBDBC9B5",
+          "publish_date": "2026-07-16",
+          "summary": "后勤服务集团 · 各院系、单位：因鼓楼校区南园17舍学生宿舍西侧管网接入学校内部管网，需停水施工。受其影响南园1舍、2舍、3舍、4舍、5舍、6舍、7舍、15舍、16舍、17舍、校医院暂停供水，停水期间带来不便，敬请谅解。请相关部门接此停水通知后互相转告，提前做好准备，感谢您的支持",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:56A76F621F3914A6E0633D7EDBDB11BD",
+          "title": "【停电调整通知】关于仙林校区历史学院（大美楼）、新闻传播学院、气象观测站（淳朴楼）、磨片室、危险品仓库、国际关系学院（咏曼阁）等停电调整通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/56A76F621F3914A6E0633D7EDBDB11BD",
+          "publish_date": "2026-07-16",
+          "summary": "后勤服务集团 · 各学院、单位：因设备检修计划临时调整，现正式取消原定于7月17日9:00-11:30历史楼变电所停电维护作业，本次时段内停电工作全部暂停。后续停电检修具体时间将根据工作安排另行通知，请大家留意后续公告。本次原停电涉及范围如下：历史学院（大美楼）、新闻传播学院、气",
+          "tags": [
+            "交换"
+          ],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:568D001C665332CAE0633C7EDBDB42D7",
+          "title": "【停水通知】2026年7月18日鼓楼校区部分楼宇停水通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/568D001C665332CAE0633C7EDBDB42D7",
+          "publish_date": "2026-07-14",
+          "summary": "后勤服务集团 · 各院系、单位：因鼓楼校区科技一期泵房水箱、蒙民伟楼楼顶水箱清洗消毒，需停水作业。受其影响，部分楼宇将暂停供水，停水期间带来不便，敬请谅解。请相关部门接此停水通知后互相转告，提前做好准备，感谢您的支持与配合。停水时间：7月18日8：00～17:00停水范围：鼓楼校",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:568B8AF348771C17E0633D7EDBDB7C89",
+          "title": "【停电通知】2026年暑假仙林校区7月17日停电通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/568B8AF348771C17E0633D7EDBDB7C89",
+          "publish_date": "2026-07-14",
+          "summary": "后勤服务集团 · 各院系、单位：根据电力行业规范要求，为确保电力设备系统的安全可靠运行，提高供电设备的使用寿命和效率，故需例行对变电所供电设备进行停电检修维护。具体停电批次和计划安排如下：停电时间：7月17日 9:00-11:30 停电场所:历史楼变电所：历史学院（大美楼）、新闻",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:568DB3C10B76996BE0633D7EDBDB1B90",
+          "title": "【停水通知】2026年7月19日鼓楼校区图书馆停水通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/568DB3C10B76996BE0633D7EDBDB1B90",
+          "publish_date": "2026-07-14",
+          "summary": "后勤服务集团 · 各院系、单位：因鼓楼校区图书馆泵房水箱清洗消毒，需停水作业。受其影响该楼宇将暂停供水，停水期间带来不便，敬请谅解。请相关部门接此停水通知后互相转告，提前做好准备，感谢您的支持与配合。停水时间：7月19日8：00～16:00停水范围：鼓楼校区图书馆注：如有相关事宜",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:567E6CE1249B98CDE0633C7EDBDBD41F",
+          "title": "【停水通知】2026年7月16日鼓楼校区蒙民伟楼停水通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/567E6CE1249B98CDE0633C7EDBDBD41F",
+          "publish_date": "2026-07-14",
+          "summary": "后勤服务集团 · 各院系、单位：因鼓楼校区蒙民伟楼泵房水箱清洗消毒，需停水作业。受其影响该楼宇将暂停供水，停水期间带来不便，敬请谅解。请相关部门接此停水通知后互相转告，提前做好准备，感谢您的支持与配合。停水时间：7月16日8：00～14:00停水范围：鼓楼校区蒙民伟楼注：如有相关",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:567E6CE1249A98CDE0633C7EDBDBD41F",
+          "title": "【停水通知】2026年7月15日鼓楼校区南园21舍停水通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/567E6CE1249A98CDE0633C7EDBDBD41F",
+          "publish_date": "2026-07-14",
+          "summary": "后勤服务集团 · 各院系、单位：因鼓楼校区南园21舍泵房水箱清洗消毒，需停水作业。受其影响该楼宇将暂停供水，停水期间带来不便，敬请谅解。请相关部门接此停水通知后互相转告，提前做好准备，感谢您的支持与配合。停水时间：7月15日8：00～15:00停水范围：鼓楼校区南园21舍注：如有",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:5641A1C67C35CA3EE0633D7EDBDB366B",
+          "title": "【提醒】关于台风天气校园安全停车温馨提示",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/5641A1C67C35CA3EE0633D7EDBDB366B",
+          "publish_date": "2026-07-11",
+          "summary": "后勤服务集团 · 各位车主、师生员工： 据气象部门预测，台风“巴威”大概率会登陆江浙沪地区，届时将出现强风、暴雨等极端天气。校园内高大树木在强风下存在断枝、倒伏风险，楼宇墙角、檐口及外墙设施周边也易发生高空坠物，可能对停放车辆造成损坏。为保障您爱车安全，避免财产损失，在此特别提醒",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:563F37F7EA86C629E0633C7EDBDBAA94",
+          "title": "【通知】关于7月15日凌晨0点至6点校园无线网络维护升级的通知",
+          "url": "https://itsc.nju.edu.cn/cd/62/c21415a839010/page.htm",
+          "publish_date": "2026-07-10",
+          "summary": "信息化建设管理服务中心",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:563D000BFCA026A2E0633D7EDBDB1035",
+          "title": "【告知】2026年7月15日仙林校区暂停购电服务告知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/563D000BFCA026A2E0633D7EDBDB1035",
+          "publish_date": "2026-07-10",
+          "summary": "后勤服务集团 · 各位教职员工、同学：因仙林校区01幢学生宿舍电力设备将于7月15日8:00～14:00进行停电检修，届时位于该楼栋的售电系统机房同步断电，仙林校区购电服务暂停。请各位教职员工、同学提前完成购电，以免影响正常用电。由此带来的不便，敬请谅解！注：如有相关事宜，请拨打",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:5638C8B9DAA69D48E0633C7EDBDB72DB",
+          "title": "【停电通知】2026年暑假仙林校区7月11日-17日停电通知",
+          "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do#ggll/1/5638C8B9DAA69D48E0633C7EDBDB72DB",
+          "publish_date": "2026-07-10",
+          "summary": "后勤服务集团 · 各学院、单位：根据电力行业《电力设备预防性试验规程 DL/T 596-2021》要求，今年学校将开展三年周期预防性试验，为减少长时间停电试验对教学科研的影响，我中心提前对相关回路设备进行负荷转供，届时分批对各学院单位、楼宇连续三天早上的短时停电倒闸操作（部分场所",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:562650D5F1E0E10EE0633C7EDBDBD5F3",
+          "title": "【通知】关于南京大学新版 VPN 平台开放试用的通知",
+          "url": "https://itsc.nju.edu.cn/cc/9c/c21415a838812/page.htm",
+          "publish_date": "2026-07-09",
+          "summary": "信息化建设管理服务中心",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "ehall:56264DFEF243C55FE0633D7EDBDB451A",
+          "title": "【通知】关于7月9日22:00至23:59统一身份认证系统升级的通知",
+          "url": "https://itsc.nju.edu.cn/cc/97/c21415a838807/page.htm",
+          "publish_date": "2026-07-09",
+          "summary": "信息化建设管理服务中心",
+          "tags": [],
+          "deadline": "",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        }
+      ]
+    },
     {
       "name": "学生交流办公室",
       "column": "通知通告",
@@ -78,30 +1783,5 @@
       "login": true
     }
   ],
-  "errors": [
-    {
-      "source": "五育",
-      "reason": "接口抓取失败（第1页）"
-    },
-    {
-      "source": "志愿服务",
-      "reason": "会话已失效"
-    },
-    {
-      "source": "选课批次",
-      "reason": "接口抓取失败（第1页）"
-    },
-    {
-      "source": "选课公告",
-      "reason": "接口抓取失败（第1页）"
-    },
-    {
-      "source": "办事大厅通知",
-      "reason": "会话已失效"
-    },
-    {
-      "source": "教服平台通知",
-      "reason": "会话已失效"
-    }
-  ]
+  "errors": []
 }
