@@ -1,4 +1,4 @@
-import { ApiError, readDay, readIndex, readLatest, readSearch, readWeek, readWindow } from './api.js';
+import { ApiError, readDay, readIndex, readLatest, readLectures, readSearch, readWeek, readWindow } from './api.js';
 
 const WEEK = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
 
@@ -10,6 +10,8 @@ const state = {
   filters: { q: '', source: '', tag: '', star: false },
   search: { q: '', items: null, scannedDays: 0 },
   week: { data: null, items: null },
+  lectures: null,
+  lectureSource: '',
   token: 0,
 };
 
@@ -51,6 +53,8 @@ function parseHash() {
   const params = new URLSearchParams(query || '');
   if (parts[0] === 'archive') return { name: 'archive' };
   if (parts[0] === 'week') return { name: 'week' };
+  if (parts[0] === 'lectures') return { name: 'lectures' };
+  if (parts[0] === 'lecture-accounts') return { name: 'lecture-accounts' };
   if (parts[0] === 'search') return { name: 'search', q: params.get('q') || '' };
   if (parts[0] === 'day' && /^\d{4}-\d{2}-\d{2}$/.test(parts[1] || '')) {
     return { name: 'day', date: parts[1] };
@@ -91,7 +95,9 @@ function showError(error) {
 function markTabs(name) {
   for (const tab of document.querySelectorAll('.tab')) {
     const key = tab.dataset.nav;
-    const active = name === key || (name === 'day' && key === 'archive') || (name === 'today' && key === 'today');
+    const active = name === key || (name === 'day' && key === 'archive')
+      || (name === 'today' && key === 'today')
+      || (name === 'lecture-accounts' && key === 'lectures');
     if (active) tab.setAttribute('aria-current', 'page');
     else tab.removeAttribute('aria-current');
   }
@@ -267,10 +273,8 @@ function filterPanel(day, onChange) {
   ]);
 }
 
-function portalSection(day) {
-  const portals = Array.isArray(day.portals) ? day.portals : [];
+function portalsCard(portals, counts, unit = '条') {
   if (!portals.length) return null;
-  const counts = new Map((day.sources || []).map((group) => [group.name, group.items.length]));
   return el('section', { class: 'sect' }, [
     el('div', { class: 'sect__head' }, [
       el('h2', { class: 'sect__title', text: '来源入口' }),
@@ -287,13 +291,20 @@ function portalSection(day) {
             entry.login ? el('span', { class: 'pill', text: '需登录' }) : null,
             el('span', {
               class: count ? 'portal__count' : 'portal__count portal__count--zero',
-              text: count ? `${count} 条` : '无新增',
+              text: count ? `${count} ${unit}` : '无新增',
             }),
           ]),
         ]);
       })),
     ]),
   ]);
+}
+
+function portalSection(day) {
+  const portals = Array.isArray(day.portals) ? day.portals : [];
+  if (!portals.length) return null;
+  const counts = new Map((day.sources || []).map((group) => [group.name, group.items.length]));
+  return portalsCard(portals, counts);
 }
 
 function dayView(day, routeName) {
@@ -763,6 +774,195 @@ function weekView(week, items, days) {
   return node;
 }
 
+/* ---------- 讲座 ---------- */
+
+function lectureCard(item) {
+  const meta = [el('span', { text: item.source })];
+  if (item.date) meta.push(el('span', { text: `${slashDate(item.date)} 发布` }));
+  return el('article', { class: 'card' }, [
+    el('h3', { class: 'card__title' }, [
+      el('a', { href: item.url, target: '_blank', rel: 'noreferrer noopener', text: item.title }),
+    ]),
+    el('div', { class: 'card__meta' }, meta),
+    item.note ? el('p', { class: 'card__summary', text: item.note }) : null,
+  ]);
+}
+
+function lecturesView(data) {
+  const items = Array.isArray(data?.items) ? data.items : [];
+  const portals = Array.isArray(data?.portals) ? data.portals : [];
+  const node = el('div', {});
+
+  const counts = new Map();
+  for (const item of items) counts.set(item.source, (counts.get(item.source) || 0) + 1);
+  const selected = state.lectureSource || '';
+  const pool = selected ? items.filter((item) => item.source === selected) : items;
+  const today = todayString();
+  const upcoming = pool
+    .filter((item) => item.start && item.start >= today)
+    .sort((a, b) => a.start.localeCompare(b.start) || a.title.localeCompare(b.title, 'zh'))
+    .slice(0, 30);
+
+  node.append(el('div', { class: 'dayhead' }, [
+    el('div', { class: 'dayhead__row' }, [el('div', { class: 'dayhead__date', text: '讲座' })]),
+    el('div', {
+      class: 'dayhead__stat',
+      text: items.length
+        ? `共 ${items.length} 场 ｜ 即将开始 ${upcoming.length} 场 ｜ 覆盖 ${counts.size} 个来源`
+        : '暂无讲座数据',
+    }),
+    el('div', { class: 'pager' }, [
+      el('button', { class: 'pager__btn', type: 'button', text: '刷新', onClick: () => render(true) }),
+      el('button', {
+        class: 'pager__btn',
+        type: 'button',
+        text: '公众号关注清单 →',
+        onClick: () => setHash('/lecture-accounts'),
+      }),
+    ]),
+  ]));
+
+  if (!items.length) {
+    node.append(el('div', { class: 'state state--empty' }, [
+      el('p', { class: 'state__title', text: '还没有讲座数据' }),
+      el('p', { text: '爬虫每天从数学、物理、历史学院的官网讲座栏目汇总讲座预告，有新的会出现在这里。' }),
+    ]));
+    return node;
+  }
+
+  const rebuild = (source) => {
+    state.lectureSource = source;
+    view.replaceChildren(lecturesView(data));
+  };
+  node.append(el('div', { class: 'filters' }, [
+    el('div', { class: 'chips' }, [el('button', {
+      class: 'chip',
+      type: 'button',
+      'aria-pressed': selected === '' ? 'true' : 'false',
+      text: '全部来源',
+      onClick: () => rebuild(''),
+    })].concat([...counts.keys()].map((name) => el('button', {
+      class: 'chip',
+      type: 'button',
+      'aria-pressed': selected === name ? 'true' : 'false',
+      onClick: () => rebuild(selected === name ? '' : name),
+    }, [name, el('span', { class: 'chip__n', text: String(counts.get(name)) })])))),
+  ]));
+
+  if (upcoming.length) {
+    node.append(el('section', { class: 'sect' }, [
+      el('div', { class: 'sect__head' }, [
+        el('h2', { class: 'sect__title', text: '即将开始' }),
+        el('span', { class: 'sect__count', text: `${upcoming.length} 场` }),
+        el('span', { class: 'sect__line' }),
+      ]),
+      el('div', { class: 'card' }, [
+        el('ul', { class: 'hl-list' }, upcoming.map((item) => el('li', { class: 'hl' }, [
+          el('a', { class: 'hl__title', href: item.url, target: '_blank', rel: 'noreferrer noopener', text: item.title }),
+          el('div', { class: 'hl__meta' }, [
+            el('span', { class: 'pill pill--deadline', text: `${monthDay(item.start)} ${weekday(item.start)}` }),
+            el('span', { text: item.source }),
+            item.note ? el('span', { text: item.note }) : null,
+          ]),
+        ]))),
+      ]),
+    ]));
+  }
+
+  node.append(el('section', { class: 'sect' }, [
+    el('div', { class: 'sect__head' }, [
+      el('h2', { class: 'sect__title', text: selected || '全部讲座' }),
+      el('span', { class: 'sect__count', text: `${pool.length} 场` }),
+      el('span', { class: 'sect__line' }),
+    ]),
+    ...pool.map((item) => lectureCard(item)),
+  ]));
+
+  const portalCard = portalsCard(portals, counts, '场');
+  if (portalCard) node.append(portalCard);
+
+  node.append(el('p', { class: 'state', text: '讲座数据来自院系官网公开栏目；会议、研讨班、暑期学校等非讲座条目已过滤。' }));
+  return node;
+}
+
+const LECTURE_ROUNDUP = [
+  { name: '南大MBA', note: '定期栏目「本周校园讲座汇总」，全校讲座一手汇总' },
+  { name: '侯印国老湿', note: '定期栏目「本周学术讲座一览」，南大知名学术信息号' },
+];
+
+const LECTURE_DEPARTMENTS = [
+  ['文学院', 'NJU文院小楼'], ['历史学院', '南京大学历史学系学生会'], ['哲学系', 'NJU哲学系学生会'],
+  ['新闻传播学院', 'NJU新传团学联'], ['法学院', 'NJU法'], ['商学院', '南商青年'],
+  ['政府管理学院', '政青春'], ['信息管理学院', '南大信管'], ['社会学院', 'NJU社院学生会'],
+  ['环境学院', '南京大学环境学院'], ['地理与海洋科学学院', '南大地理人'], ['大气科学学院', '南京大学大气科学学院'],
+  ['生命科学学院', 'NJUsky'], ['工程管理学院', '南京大学工程管理学院'], ['建筑与城市规划学院', 'nju青春建城'],
+  ['数学系', '南数后花园'], ['物理学院', 'NJUPHY'], ['天文与空间科学学院', '南大天空团学联'],
+  ['化学化工学院', 'NJU化院学生会'], ['计算机学院', 'NJU计小微'], ['软件学院', '南京大学软件学院'],
+  ['人工智能学院', 'NJUAI学生会'], ['电子科学与工程学院', '南大电子人'], ['现代工程与应用科学学院', '南大小工仔'],
+  ['地球科学与工程学院', '南大地科'],
+];
+
+const LECTURE_CAMPUS = [
+  { name: '南京大学图书馆', note: '系列讲座与培训（对话南大先生、名家讲座等）' },
+  { name: '南京大学', note: '官方号，校级大讲座与重要学者来访' },
+  { name: '南京大学心理中心', note: '心理健康主题讲座' },
+  { name: '南京大学博物馆', note: '文博类讲座与公开课' },
+  { name: '南大青年', note: '学术论坛、讲座类活动' },
+  { name: '南京大学学生会 / 南大研会', note: '学术论坛、讲座类活动' },
+  { name: '南大就业', note: '就业与职场类讲座' },
+];
+
+const LECTURE_FOUND = [
+  { name: '南播玩', note: '校园资讯号' },
+  { name: '民国研究', note: '历史学学术讲座' },
+  { name: 'NJU学衡研究院', note: '学衡研究院学术讲座' },
+  { name: 'NJU法学研会', note: '法学院讲座资讯' },
+];
+
+function accountSection(title, count, rows) {
+  return el('section', { class: 'sect' }, [
+    el('div', { class: 'sect__head' }, [
+      el('h2', { class: 'sect__title', text: title }),
+      count ? el('span', { class: 'sect__count', text: count }) : null,
+      el('span', { class: 'sect__line' }),
+    ]),
+    el('div', { class: 'card' }, [
+      el('ul', { class: 'accts' }, rows.map((row) => el('li', { class: 'acct' }, [
+        el('span', { class: 'acct__name', text: row.name }),
+        row.note ? el('span', { class: 'acct__note', text: row.note }) : null,
+        row.dept ? el('span', { class: 'acct__dept', text: row.dept }) : null,
+      ]))),
+    ]),
+  ]);
+}
+
+function lectureAccountsView() {
+  const node = el('div', {});
+  node.append(el('div', { class: 'dayhead' }, [
+    el('div', { class: 'dayhead__row' }, [el('div', { class: 'dayhead__date', text: '讲座公众号' })]),
+    el('div', { class: 'dayhead__stat', text: '官网栏目之外的补充渠道 ｜ 整理于 2026-10-01 ｜ 请在微信内搜索关注' }),
+    el('div', { class: 'pager' }, [
+      el('button', {
+        class: 'pager__btn',
+        type: 'button',
+        text: '← 返回讲座',
+        onClick: () => setHash('/lectures'),
+      }),
+    ]),
+  ]));
+
+  node.append(accountSection('蹲全校讲座', '两个定期汇总栏目', LECTURE_ROUNDUP));
+  node.append(accountSection('院系学术号', `${LECTURE_DEPARTMENTS.length} 个`,
+    LECTURE_DEPARTMENTS.map(([dept, name]) => ({ name, dept }))));
+  node.append(accountSection('校级账号', `${LECTURE_CAMPUS.length} 个`, LECTURE_CAMPUS));
+  node.append(accountSection('更多线索', `${LECTURE_FOUND.length} 个`, LECTURE_FOUND));
+  node.append(el('p', {
+    class: 'state',
+    text: '公众号名称以微信内搜索为准；信息门户、医院、后勤等不常发讲座的账号未收录。',
+  }));
+  return node;
+}
+
 /* ---------- 渲染入口 ---------- */
 
 async function render(force = false) {
@@ -800,6 +1000,24 @@ async function render(force = false) {
         state.week = { data: week, items: windowItems };
       }
       view.replaceChildren(weekView(state.week.data, state.week.items, state.days || []));
+      return;
+    }
+
+    if (route.name === 'lectures') {
+      document.title = '讲座 · 南大信息日报';
+      if (!state.lectures || force) {
+        showLoading();
+        const data = await readLectures();
+        if (token !== state.token) return;
+        state.lectures = data;
+      }
+      view.replaceChildren(lecturesView(state.lectures));
+      return;
+    }
+
+    if (route.name === 'lecture-accounts') {
+      document.title = '讲座公众号 · 南大信息日报';
+      view.replaceChildren(lectureAccountsView());
       return;
     }
 

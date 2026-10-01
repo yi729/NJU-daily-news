@@ -87,6 +87,16 @@ export async function readWeek() {
   }
 }
 
+// 讲座频道（官网讲座栏目汇总，爬虫单独导出）；没有讲座数据时文件不存在，返回 null
+export async function readLectures() {
+  try {
+    return await getJson(`${DATA_ROOT}/lectures.json`);
+  } catch (error) {
+    if (error instanceof ApiError && error.status === 404) return null;
+    throw error;
+  }
+}
+
 // 最近 days 期日报里的全部条目（按发布时间从新到旧），供「本周」页聚合
 export async function readWindow(days = 7, limit = 400) {
   const index = await readIndex(MAX_DAYS);
