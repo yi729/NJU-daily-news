@@ -788,6 +788,37 @@ function lectureCard(item) {
   ]);
 }
 
+function lectureSoonLabel(start) {
+  const left = daysLeft(start);
+  if (left <= 0) return '今天';
+  if (left === 1) return '明天';
+  return `${left} 天后`;
+}
+
+function lectureSoonSection(upcoming) {
+  return el('section', { class: 'sect sect--soon' }, [
+    el('div', { class: 'sect__head' }, [
+      el('h2', { class: 'sect__title', text: '⏰ 即将开始' }),
+      el('span', { class: 'sect__count', text: `未来 ${upcoming.length} 场` }),
+      el('span', { class: 'sect__line' }),
+    ]),
+    el('div', { class: 'card card--soon' }, [
+      el('ul', { class: 'hl-list' }, upcoming.map((item) => el('li', { class: 'hl' }, [
+        el('a', { class: 'hl__title', href: item.url, target: '_blank', rel: 'noreferrer noopener', text: item.title }),
+        el('div', { class: 'hl__meta' }, [
+          el('span', {
+            class: daysLeft(item.start) <= 1 ? 'pill pill--urgent' : 'pill pill--soon',
+            text: lectureSoonLabel(item.start),
+          }),
+          el('span', { class: 'pill pill--deadline', text: `${monthDay(item.start)} ${weekday(item.start)}` }),
+          el('span', { text: item.source }),
+          item.note ? el('span', { text: item.note }) : null,
+        ]),
+      ]))),
+    ]),
+  ]);
+}
+
 function lecturesView(data) {
   const items = Array.isArray(data?.items) ? data.items : [];
   const portals = Array.isArray(data?.portals) ? data.portals : [];
@@ -825,7 +856,7 @@ function lecturesView(data) {
   if (!items.length) {
     node.append(el('div', { class: 'state state--empty' }, [
       el('p', { class: 'state__title', text: '还没有讲座数据' }),
-      el('p', { text: '爬虫每天从数学、物理、历史学院的官网讲座栏目汇总讲座预告，有新的会出现在这里。' }),
+      el('p', { text: '爬虫每天从数学、物理、历史学院的官网讲座栏目汇总讲座预告；已结束的讲座会自动下架，新的预告会出现在这里。' }),
     ]));
     return node;
   }
@@ -834,6 +865,9 @@ function lecturesView(data) {
     state.lectureSource = source;
     view.replaceChildren(lecturesView(data));
   };
+
+  if (upcoming.length) node.append(lectureSoonSection(upcoming));
+
   node.append(el('div', { class: 'filters' }, [
     el('div', { class: 'chips' }, [el('button', {
       class: 'chip',
@@ -849,26 +883,6 @@ function lecturesView(data) {
     }, [name, el('span', { class: 'chip__n', text: String(counts.get(name)) })])))),
   ]));
 
-  if (upcoming.length) {
-    node.append(el('section', { class: 'sect' }, [
-      el('div', { class: 'sect__head' }, [
-        el('h2', { class: 'sect__title', text: '即将开始' }),
-        el('span', { class: 'sect__count', text: `${upcoming.length} 场` }),
-        el('span', { class: 'sect__line' }),
-      ]),
-      el('div', { class: 'card' }, [
-        el('ul', { class: 'hl-list' }, upcoming.map((item) => el('li', { class: 'hl' }, [
-          el('a', { class: 'hl__title', href: item.url, target: '_blank', rel: 'noreferrer noopener', text: item.title }),
-          el('div', { class: 'hl__meta' }, [
-            el('span', { class: 'pill pill--deadline', text: `${monthDay(item.start)} ${weekday(item.start)}` }),
-            el('span', { text: item.source }),
-            item.note ? el('span', { text: item.note }) : null,
-          ]),
-        ]))),
-      ]),
-    ]));
-  }
-
   node.append(el('section', { class: 'sect' }, [
     el('div', { class: 'sect__head' }, [
       el('h2', { class: 'sect__title', text: selected || '全部讲座' }),
@@ -881,7 +895,7 @@ function lecturesView(data) {
   const portalCard = portalsCard(portals, counts, '场');
   if (portalCard) node.append(portalCard);
 
-  node.append(el('p', { class: 'state', text: '讲座数据来自院系官网公开栏目；会议、研讨班、暑期学校等非讲座条目已过滤。' }));
+  node.append(el('p', { class: 'state', text: '讲座数据来自院系官网公开栏目；会议、研讨班、暑期学校等非讲座条目已过滤；已结束的讲座自动下架。' }));
   return node;
 }
 

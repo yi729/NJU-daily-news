@@ -235,6 +235,7 @@ a { color: inherit; }
 }
 
 .sect--star .sect__title { color: var(--star); }
+.sect--soon .sect__title { color: var(--accent); }
 
 .hl-list { margin: 0; padding: 0; list-style: none; }
 
@@ -275,6 +276,11 @@ a { color: inherit; }
 .card--star {
   border-left: 3px solid var(--star);
   background: linear-gradient(180deg, var(--star-soft), var(--surface) 64%);
+}
+
+.card--soon {
+  border-left: 3px solid var(--accent);
+  background: linear-gradient(180deg, var(--accent-soft), var(--surface) 64%);
 }
 
 .card__title {
@@ -331,6 +337,7 @@ a { color: inherit; }
 }
 
 .pill--deadline { background: var(--star-soft); color: var(--star); font-weight: 600; }
+.pill--soon { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
 .pill--tag { background: var(--accent-soft); color: var(--accent); }
 .pill--warn { background: var(--danger-soft); color: var(--danger); }
 
