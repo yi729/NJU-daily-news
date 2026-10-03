@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T18:45:18",
+  "generatedAt": "2026-10-03T19:51:55",
   "items": [
     {
       "title": "建城学术｜青年学者论坛第四十七期：“轨道上的共赢：一带一路背景下中马铁路与城市发展的经验交流”圆满举办",
@@ -226,6 +226,42 @@
       "name": "环境学院",
       "column": "学术交流",
       "url": "http://hjxy.nju.edu.cn/sy/xsjl/index.html",
+      "login": false
+    },
+    {
+      "name": "计算机学院",
+      "column": "会议讲座信息",
+      "url": "https://cs.nju.edu.cn/1706/list.htm",
+      "login": false
+    },
+    {
+      "name": "天文与空间科学学院",
+      "column": "学术报告",
+      "url": "https://astronomy.nju.edu.cn/xshd/xsbg/index.html",
+      "login": false
+    },
+    {
+      "name": "医学院",
+      "column": "学术交流",
+      "url": "https://med.nju.edu.cn/53059/list.htm",
+      "login": false
+    },
+    {
+      "name": "大气科学学院",
+      "column": "报告讲座",
+      "url": "https://as.nju.edu.cn/bgjz/list.htm",
+      "login": false
+    },
+    {
+      "name": "现代工程与应用科学学院",
+      "column": "精彩活动1",
+      "url": "https://eng.nju.edu.cn/jchd1/list.htm",
+      "login": false
+    },
+    {
+      "name": "图书馆",
+      "column": "资源动态",
+      "url": "https://lib.nju.edu.cn/dzzy/zydt1.htm",
       "login": false
     }
   ]
