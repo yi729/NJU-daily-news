@@ -1,0 +1,218 @@
+{
+  "date": "2026-10-08",
+  "generatedAt": "2026-10-08T21:04:00+08:00",
+  "stats": {
+    "new": 5,
+    "updated": 0,
+    "sources": 2
+  },
+  "sources": [
+    {
+      "name": "学生交流办公室",
+      "column": "通知通告",
+      "items": [
+        {
+          "item_key": "c2539a845600",
+          "title": "【美国-本科生】2027年春季学期美国宾夕法尼亚大学IGSP交流项目通知",
+          "url": "https://stuex.nju.edu.cn/e7/20/c2539a845600/page.htm",
+          "publish_date": "2026-10-08",
+          "summary": "宾夕法尼亚大学IGSP春季交流项目面向大二大三本科生，10月12日前校内报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-10-12",
+          "highlight": true,
+          "highlight_reason": "有校内报名截止日期",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/64/ba/a3eecb934679920c6cb1f1ad3b8c/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a845596",
+          "title": "【意大利-本科生】2027年春季学期罗马一大交换项目通知",
+          "url": "https://stuex.nju.edu.cn/e7/1c/c2539a845596/page.htm",
+          "publish_date": "2026-10-08",
+          "summary": "罗马一大春季交换项目面向非毕业年级本科生，10月14日前校内报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-10-14",
+          "highlight": true,
+          "highlight_reason": "有校内报名截止日期",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/b3/75/4477706b4664b919a8df6a8da090/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a845541",
+          "title": "【韩国-硕士生】2027年春季学期韩国延世大学交换项目通知",
+          "url": "https://stuex.nju.edu.cn/e6/e5/c2539a845541/page.htm",
+          "publish_date": "2026-10-08",
+          "summary": "延世大学春季交换项目面向研二硕士生，10月14日前校内报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-10-14",
+          "highlight": true,
+          "highlight_reason": "有校内报名截止日期",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "[Yonsei ESP] Factsheet_Spring_2027.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/e9/94/04c49b5f436abb8d1cfd7c2cd085/d5fab452-c9be-4032-ab17-e030173fbdc0.pdf"
+            },
+            {
+              "name": "[Yonsei ESP] Student guide_Spring 2027.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/e9/94/04c49b5f436abb8d1cfd7c2cd085/e2c2d4a8-3485-41cd-ba6c-762a9373e87d.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a845540",
+          "title": "【澳大利亚-本科生】2027年春季学期澳大利亚麦考瑞大学交换项目通知",
+          "url": "https://stuex.nju.edu.cn/e6/e4/c2539a845540/page.htm",
+          "publish_date": "2026-10-08",
+          "summary": "麦考瑞大学春季交换项目面向大二大三本科生，10月14日前校内报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-10-14",
+          "highlight": true,
+          "highlight_reason": "有校内报名截止日期",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "Closed Units List 2027.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/78/f1/8ca8f68d42ab98bc08bf2c7cd48a/3a469dd8-f9ec-45cf-9f32-f16e3be1ee7d.pdf"
+            },
+            {
+              "name": "Exchange Fact Sheet 27.1.0.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/78/f1/8ca8f68d42ab98bc08bf2c7cd48a/d896b1d9-11cd-4abf-9250-11b4ebb72654.pdf"
+            },
+            {
+              "name": "Open Access Units List 2027.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/78/f1/8ca8f68d42ab98bc08bf2c7cd48a/50fb3c9e-9167-4e92-a371-a850b91732d4.pdf"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "教务处",
+      "column": "公告通知",
+      "items": [
+        {
+          "item_key": "c26263a845506",
+          "title": "关于组织申报第十九届全国大学生创新年会的通知",
+          "url": "https://jw.nju.edu.cn/e6/c2/c26263a845506/page.htm",
+          "publish_date": "2026-10-08",
+          "summary": "第十九届全国大学生创新年会征集国创计划结项项目，10月16日前校内申报。",
+          "tags": [
+            "竞赛",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-10-16",
+          "highlight": true,
+          "highlight_reason": "有申报截止日期",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "相关附件.zip",
+              "url": "https://jw.nju.edu.cn/_upload/article/files/56/ea/bce2b7fa48198cf2194b973a06e6/5cb6bdcf-2927-4b0b-9bfa-4c6ae349f8d4.zip"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "portals": [
+    {
+      "name": "教务处",
+      "column": "公告通知",
+      "url": "https://jw.nju.edu.cn/ggtz/list.htm",
+      "login": false
+    },
+    {
+      "name": "学生交流办公室",
+      "column": "通知通告",
+      "url": "https://stuex.nju.edu.cn/2539/list.htm",
+      "login": false
+    },
+    {
+      "name": "五育",
+      "column": "活动报名",
+      "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+      "login": true
+    },
+    {
+      "name": "志愿服务",
+      "column": "活动中心",
+      "url": "https://youth.nju.edu.cn/tw/#/legacy?target=/zyz/hdzx&me=MGRmODJjNmEtOTNiZi00MjJjLTk3MWEtMTJmOTdhZjIzYmRj",
+      "login": true
+    },
+    {
+      "name": "选课批次",
+      "column": "选课公告",
+      "url": "https://xk.nju.edu.cn/",
+      "login": false
+    },
+    {
+      "name": "选课公告",
+      "column": "选课公告",
+      "url": "https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/*default/publicinfo.do?type=notice",
+      "login": false
+    },
+    {
+      "name": "办事大厅通知",
+      "column": "通知公告",
+      "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do",
+      "login": true
+    },
+    {
+      "name": "教服平台通知",
+      "column": "通知公告",
+      "url": "https://ehall.nju.edu.cn/portal/html/select_role.html?appId=7170579276974719",
+      "login": true
+    }
+  ],
+  "errors": [
+    {
+      "source": "五育",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "志愿服务",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "办事大厅通知",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "教服平台通知",
+      "reason": "会话已失效"
+    }
+  ]
+}
