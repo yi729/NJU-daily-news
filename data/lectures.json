@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T22:18:46",
+  "generatedAt": "2026-10-19T21:14:58",
   "items": [
     {
       "title": "Twisting Higgs modules and the p-adic Simpson correspondence",
@@ -20,11 +20,20 @@
       "column": "学术报告"
     },
     {
+      "title": "基于注意力机制的卷积神经网络等人工智能与数学模型在心脑疾病分类和预测中的应用",
+      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261019/i426420.html",
+      "date": "2026-10-22",
+      "start": "2026-10-22",
+      "note": "10月22日 09:00 · 路建波 研究员 （国家卫生健康委科学技术研究所） · 西大楼210",
+      "source": "数学学院",
+      "column": "近期报告"
+    },
+    {
       "title": "From Non-Abelian Hodge Theory to Derived Twistor Geometry",
       "url": "http://math.nju.edu.cn/xsbg/jrbg/20261012/i423037.html",
       "date": "2026-10-21",
       "start": "2026-10-21",
-      "note": "10月21日 16:15 · Jacob Kryczka 教授，哈尔滨工业大学 · 西大楼108",
+      "note": "10月21日 17:00 · Jacob Kryczka 教授，哈尔滨工业大学 · 西大楼108",
       "source": "数学学院",
       "column": "近期报告"
     },
@@ -36,6 +45,42 @@
       "note": "10月21日 16:00 · 廖良文 · 戊己庚四楼北、腾讯会议",
       "source": "数学学院",
       "column": "近期报告"
+    },
+    {
+      "title": "A growth gap for anisotropic minimal graphs",
+      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261019/i426404.html",
+      "date": "2026-10-20",
+      "start": "2026-10-20",
+      "note": "10月20日 15:00 · 杨洋 湖南大学 · 蒙楼1105",
+      "source": "数学学院",
+      "column": "近期报告"
+    },
+    {
+      "title": "2026.10.26泰康医学学术报告：神经干细胞及脑发育疾病机理研究",
+      "url": "https://med.nju.edu.cn/e9/ed/c53059a846317/page.htm",
+      "date": "2026-10-19",
+      "start": "2026-10-26",
+      "note": "10月26日",
+      "source": "医学院",
+      "column": "学术交流"
+    },
+    {
+      "title": "南京大学物理学院学术报告会（第113期）",
+      "url": "http://physics.nju.edu.cn/xwdt/xshd/20261019/i426411.html",
+      "date": "2026-10-19",
+      "start": "2026-10-22",
+      "note": "10月22日 15:30 · 雷和畅教授，中国人民大学 · 鼓楼校区唐仲英楼B501",
+      "source": "物理学院",
+      "column": "学术活动"
+    },
+    {
+      "title": "粒子物理学术报告：Top-Quark Decays and Top-Rich Signatures as Windows to New Physics with ATLAS",
+      "url": "http://physics.nju.edu.cn/xwdt/xshd/20261019/i426413.html",
+      "date": "2026-10-19",
+      "start": "2026-10-20",
+      "note": "10月20日 上午10:00点，周二 · 屠艳珺 教授，香港大学物理系 · 物理楼 523 室 Abstract: This seminar presents our ATLAS programm",
+      "source": "物理学院",
+      "column": "学术活动"
     },
     {
       "title": "A new tipping point in the Earth system",
@@ -257,15 +302,6 @@
       "title": "讲座预告丨南雍世界史系列讲座：《流动性、民族主义、帝国：一个全球视角》",
       "url": "https://history.nju.edu.cn/e3/d1/c28501a844753/page.htm",
       "date": "2026-09-23",
-      "start": "",
-      "note": "",
-      "source": "历史学院",
-      "column": "学术讲座"
-    },
-    {
-      "title": "讲座预告 l 国际共产主义运动视野下的中共早期建党方式调整",
-      "url": "https://history.nju.edu.cn/e1/6c/c28501a844140/page.htm",
-      "date": "2026-09-17",
       "start": "",
       "note": "",
       "source": "历史学院",

@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T21:14:56+08:00",
+  "stats": {
+    "new": 3,
+    "updated": 0,
+    "sources": 1
+  },
+  "sources": [
+    {
+      "name": "学生交流办公室",
+      "column": "通知通告",
+      "items": [
+        {
+          "item_key": "c2539a846320",
+          "title": "【德国-本科生】2027年春季学期图宾根大学交换项目通知",
+          "url": "https://stuex.nju.edu.cn/e9/f0/c2539a846320/page.htm",
+          "publish_date": "2026-10-19",
+          "summary": "图宾根大学2027春季交换项目招3名本科生，免学费，需10月22日前校内报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-10-22",
+          "highlight": true,
+          "highlight_reason": "校内报名10月22日截止",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/ec/d0/724283e249c7aedc6580e7003eea/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            },
+            {
+              "name": "University_of_Tuebingen_Fact-Sheet_26-27.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/ec/d0/724283e249c7aedc6580e7003eea/149eb4c3-f311-4930-975d-29dd35086745.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a846314",
+          "title": "【英国-本科生】2027年春季学期曼彻斯特大学交换项目通知",
+          "url": "https://stuex.nju.edu.cn/e9/ea/c2539a846314/page.htm",
+          "publish_date": "2026-10-19",
+          "summary": "曼彻斯特大学2027春季交换项目招3名大二大三本科生，免学费，10月22日前校内报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-10-22",
+          "highlight": true,
+          "highlight_reason": "校内报名10月22日截止",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/56/25/12bccd5c4b8a9f18f80e1cc4870e/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a846299",
+          "title": "【德国-本科生】2027年春季学期哥廷根大学交换项目通知",
+          "url": "https://stuex.nju.edu.cn/e9/db/c2539a846299/page.htm",
+          "publish_date": "2026-10-19",
+          "summary": "哥廷根大学2027春季交换项目招5名商学院本科生，免学费，10月22日前校内报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-10-22",
+          "highlight": true,
+          "highlight_reason": "校内报名10月22日截止",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/15/99/2902d4ed4b068458230166953c7e/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            },
+            {
+              "name": "2026_27 Key_Data_Sheet_UGOE.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/15/99/2902d4ed4b068458230166953c7e/857a3d14-2351-49c6-b007-597d64b36919.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "portals": [
+    {
+      "name": "教务处",
+      "column": "公告通知",
+      "url": "https://jw.nju.edu.cn/ggtz/list.htm",
+      "login": false
+    },
+    {
+      "name": "学生交流办公室",
+      "column": "通知通告",
+      "url": "https://stuex.nju.edu.cn/2539/list.htm",
+      "login": false
+    },
+    {
+      "name": "五育",
+      "column": "活动报名",
+      "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+      "login": true
+    },
+    {
+      "name": "志愿服务",
+      "column": "活动中心",
+      "url": "https://youth.nju.edu.cn/tw/#/legacy?target=/zyz/hdzx&me=MGRmODJjNmEtOTNiZi00MjJjLTk3MWEtMTJmOTdhZjIzYmRj",
+      "login": true
+    },
+    {
+      "name": "选课批次",
+      "column": "选课公告",
+      "url": "https://xk.nju.edu.cn/",
+      "login": false
+    },
+    {
+      "name": "选课公告",
+      "column": "选课公告",
+      "url": "https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/*default/publicinfo.do?type=notice",
+      "login": false
+    },
+    {
+      "name": "办事大厅通知",
+      "column": "通知公告",
+      "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do",
+      "login": true
+    },
+    {
+      "name": "教服平台通知",
+      "column": "通知公告",
+      "url": "https://ehall.nju.edu.cn/portal/html/select_role.html?appId=7170579276974719",
+      "login": true
+    }
+  ],
+  "errors": [
+    {
+      "source": "五育",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "志愿服务",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "办事大厅通知",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "教服平台通知",
+      "reason": "会话已失效"
+    }
+  ]
+}
