@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T20:40:49",
+  "generatedAt": "2026-10-23T10:31:55",
   "items": [
     {
       "title": "Twisting Higgs modules and the p-adic Simpson correspondence",
@@ -11,6 +11,24 @@
       "column": "近期报告"
     },
     {
+      "title": "Nonlinear Landau Damping for the Unconfined Vlasov–Poisson System",
+      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261023/i426809.html",
+      "date": "2026-10-30",
+      "start": "2026-10-30",
+      "note": "10月30日 15:00 · Quoc Hung Nguyen · 西大楼108",
+      "source": "数学学院",
+      "column": "近期报告"
+    },
+    {
+      "title": "【讲座信息】南京大学第二十一届读书节图书馆知识讲座一览",
+      "url": "https://lib.nju.edu.cn/info/1012/4370.htm",
+      "date": "2026-10-23",
+      "start": "",
+      "note": "",
+      "source": "图书馆",
+      "column": "资源动态"
+    },
+    {
       "title": "2026.10.27泰康医学学术报告：HOW TO GET PUBLISHED IN THE MODERN AGE",
       "url": "https://med.nju.edu.cn/eb/48/c53059a846664/page.htm",
       "date": "2026-10-22",
@@ -18,15 +36,6 @@
       "note": "10月27日",
       "source": "医学院",
       "column": "学术交流"
-    },
-    {
-      "title": "活动星系/黑洞X射线双星中的吸积盘和喷流",
-      "url": "https://astronomy.nju.edu.cn/xshd/xsbg/20261016/i426060.html",
-      "date": "2026-10-22",
-      "start": "2026-10-22",
-      "note": "10月22日 16:10 · 曹新伍 教授 （浙江大学） · 天文楼212报告厅",
-      "source": "天文与空间科学学院",
-      "column": "学术报告"
     },
     {
       "title": "「圣达学术讲坛」152讲预告 || 生成式AI重构论文写作与期刊审稿范式",
@@ -45,15 +54,6 @@
       "note": "",
       "source": "数学学术会议",
       "column": "学术会议"
-    },
-    {
-      "title": "基于注意力机制的卷积神经网络等人工智能与数学模型在心脑疾病分类和预测中的应用",
-      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261019/i426420.html",
-      "date": "2026-10-22",
-      "start": "2026-10-22",
-      "note": "10月22日 09:00 · 路建波 研究员 （国家卫生健康委科学技术研究所） · 西大楼210",
-      "source": "数学学院",
-      "column": "近期报告"
     },
     {
       "title": "北京邮电大学刘元安讲座",
@@ -108,15 +108,6 @@
       "note": "10月26日",
       "source": "医学院",
       "column": "学术交流"
-    },
-    {
-      "title": "南京大学物理学院学术报告会（第113期）",
-      "url": "http://physics.nju.edu.cn/xwdt/xshd/20261019/i426411.html",
-      "date": "2026-10-19",
-      "start": "2026-10-22",
-      "note": "10月22日 15:30 · 雷和畅教授，中国人民大学 · 鼓楼校区唐仲英楼B501",
-      "source": "物理学院",
-      "column": "学术活动"
     },
     {
       "title": "A new tipping point in the Earth system",
