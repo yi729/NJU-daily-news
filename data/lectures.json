@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T10:31:55",
+  "generatedAt": "2026-10-24T08:01:02",
   "items": [
     {
       "title": "Twisting Higgs modules and the p-adic Simpson correspondence",
@@ -20,6 +20,33 @@
       "column": "近期报告"
     },
     {
+      "title": "【本科生论坛】智能的涌现：大语言模型的数学与哲学思考",
+      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261023/i426970.html",
+      "date": "2026-10-28",
+      "start": "2026-10-28",
+      "note": "10月28日 16:00 · 吴楠（计算机学院） · 戊己庚楼四楼北",
+      "source": "数学学院",
+      "column": "近期报告"
+    },
+    {
+      "title": "Large-time asymptotics of solutions of the Kramers-Fokker-Planck equation with a long-range potential",
+      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261023/i426843.html",
+      "date": "2026-10-26",
+      "start": "2026-10-26",
+      "note": "10月26日 16:40 · 王雪平教授（南京航空航天大学） · 西大楼308报告厅",
+      "source": "数学学院",
+      "column": "近期报告"
+    },
+    {
+      "title": "Analytic smoothing effect of Cauchy problem for non-cutoff Boltzmann equation",
+      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261023/i426844.html",
+      "date": "2026-10-26",
+      "start": "2026-10-26",
+      "note": "10月26日 15:30 · 徐超江教授（南京航空航天大学) · 西大楼308报告厅",
+      "source": "数学学院",
+      "column": "近期报告"
+    },
+    {
       "title": "【讲座信息】南京大学第二十一届读书节图书馆知识讲座一览",
       "url": "https://lib.nju.edu.cn/info/1012/4370.htm",
       "date": "2026-10-23",
@@ -27,6 +54,15 @@
       "note": "",
       "source": "图书馆",
       "column": "资源动态"
+    },
+    {
+      "title": "最高人民检察院“检察实务专家进校园”系列讲座2026年秋季学期第一讲海报",
+      "url": "https://law.nju.edu.cn/info/2261/28121.htm",
+      "date": "2026-10-23",
+      "start": "",
+      "note": "",
+      "source": "法学院",
+      "column": "学术活动"
     },
     {
       "title": "2026.10.27泰康医学学术报告：HOW TO GET PUBLISHED IN THE MODERN AGE",
@@ -153,15 +189,6 @@
       "note": "",
       "source": "地球科学与工程学院",
       "column": "学术报告"
-    },
-    {
-      "title": "“风云英华”学术讲座第123期 李国平教授",
-      "url": "https://as.nju.edu.cn/e8/e1/c11321a846049/page.htm",
-      "date": "2026-10-14",
-      "start": "2026-10-23",
-      "note": "10月23日 下午2:30-4:00 · 李国平 教授（成都信息工程大学） · 大气楼D103报告厅 报告",
-      "source": "大气科学学院",
-      "column": "报告讲座"
     },
     {
       "title": "上海法官进高校系列巡讲——南京大学第七讲海报",
@@ -324,24 +351,6 @@
       "note": "",
       "source": "法学院",
       "column": "学术活动"
-    },
-    {
-      "title": "讲座预告 l 田卫平：《期刊论文指南：从选题到发表》",
-      "url": "https://history.nju.edu.cn/e3/d0/c28501a844752/page.htm",
-      "date": "2026-09-23",
-      "start": "",
-      "note": "",
-      "source": "历史学院",
-      "column": "学术讲座"
-    },
-    {
-      "title": "讲座预告丨南雍世界史系列讲座：《流动性、民族主义、帝国：一个全球视角》",
-      "url": "https://history.nju.edu.cn/e3/d1/c28501a844753/page.htm",
-      "date": "2026-09-23",
-      "start": "",
-      "note": "",
-      "source": "历史学院",
-      "column": "学术讲座"
     }
   ],
   "portals": [
