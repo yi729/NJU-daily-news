@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T08:01:02",
+  "generatedAt": "2026-10-26T18:37:02",
   "items": [
     {
       "title": "Twisting Higgs modules and the p-adic Simpson correspondence",
@@ -27,6 +27,33 @@
       "note": "10月28日 16:00 · 吴楠（计算机学院） · 戊己庚楼四楼北",
       "source": "数学学院",
       "column": "近期报告"
+    },
+    {
+      "title": "【讲座信息】10月29日图书馆知识讲座之AI助力精准定位和高效利用全球学术资源",
+      "url": "https://lib.nju.edu.cn/info/1012/4374.htm",
+      "date": "2026-10-26",
+      "start": "2026-10-29",
+      "note": "10月29日",
+      "source": "图书馆",
+      "column": "资源动态"
+    },
+    {
+      "title": "【讲座信息】10月28日图书馆知识讲座之南雍问道·智研求索",
+      "url": "https://lib.nju.edu.cn/info/1012/4373.htm",
+      "date": "2026-10-26",
+      "start": "2026-10-28",
+      "note": "10月28日",
+      "source": "图书馆",
+      "column": "资源动态"
+    },
+    {
+      "title": "【讲座信息】10月27日图书馆知识讲座之图书馆资源检索综合篇",
+      "url": "https://lib.nju.edu.cn/info/1012/4372.htm",
+      "date": "2026-10-26",
+      "start": "2026-10-27",
+      "note": "10月27日",
+      "source": "图书馆",
+      "column": "资源动态"
     },
     {
       "title": "Large-time asymptotics of solutions of the Kramers-Fokker-Planck equation with a long-range potential",
@@ -342,15 +369,6 @@
       "note": "",
       "source": "建筑与城市规划学院",
       "column": "学术讲座"
-    },
-    {
-      "title": "中德法学研究所“中德法学论坛”第182期海报",
-      "url": "https://law.nju.edu.cn/info/2261/27361.htm",
-      "date": "2026-09-24",
-      "start": "",
-      "note": "",
-      "source": "法学院",
-      "column": "学术活动"
     }
   ],
   "portals": [
