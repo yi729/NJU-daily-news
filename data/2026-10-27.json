@@ -1,0 +1,206 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T12:24:53+08:00",
+  "stats": {
+    "new": 5,
+    "updated": 0,
+    "sources": 2
+  },
+  "sources": [
+    {
+      "name": "学生交流办公室",
+      "column": "通知通告",
+      "items": [
+        {
+          "item_key": "c2539a847026",
+          "title": "【德国-硕士生】2027年春季学期图宾根大学交换项目通知",
+          "url": "https://stuex.nju.edu.cn/ec/b2/c2539a847026/page.htm",
+          "publish_date": "2026-10-26",
+          "summary": "图宾根大学2027春季交换项目面向非毕业年级硕士生，德语或英语B2，需10月29日前校内报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-10-29",
+          "highlight": true,
+          "highlight_reason": "报名截止临近",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/93/01/51e12fe142ba8a2c4e4f486c1019/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a847031",
+          "title": "【意大利-本科生、硕士生】2027年春季学期罗马第二大学交换项目通知",
+          "url": "https://stuex.nju.edu.cn/ec/b7/c2539a847031/page.htm",
+          "publish_date": "2026-10-26",
+          "summary": "罗马第二大学2027春季交换项目面向本科生和硕士生，英语B2或意语B1，需10月30日前校内报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-10-30",
+          "highlight": true,
+          "highlight_reason": "报名截止临近",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/cf/e9/8cd281eb40159d9351c241540a08/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            },
+            {
+              "name": "Academic Information - Tor Vergata University of Rome.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/cf/e9/8cd281eb40159d9351c241540a08/c4dc9e8a-dc86-4bab-9c28-a93ab43e46ff.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a847033",
+          "title": "【德国-本科生】2027年春季学期海德堡大学交换项目通知",
+          "url": "https://stuex.nju.edu.cn/ec/b9/c2539a847033/page.htm",
+          "publish_date": "2026-10-26",
+          "summary": "海德堡大学2027春季交换项目面向大二大三本科生，德语B2、GPA3/4，需11月3日前校内报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-11-03",
+          "highlight": true,
+          "highlight_reason": "有校内报名截止日期",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/ce/fa/523d59544d2f9309fb81caf0f51e/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            },
+            {
+              "name": "Fact Sheet_ 2027-28_all.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/ce/fa/523d59544d2f9309fb81caf0f51e/4b5374dd-4a6c-412e-bc42-d78de7e93956.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a847022",
+          "title": "关于2026年基础学科国际化拔尖创新人才培养项目的公示（一）",
+          "url": "https://stuex.nju.edu.cn/ec/ae/c2539a847022/page.htm",
+          "publish_date": "2026-10-26",
+          "summary": "公示拟推荐17人申请2026年基础学科国际化拔尖创新人才培养项目，10月30日前可反馈意见。",
+          "tags": [
+            "交换"
+          ],
+          "deadline": "2026-10-30",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "教务处",
+      "column": "公告通知",
+      "items": [
+        {
+          "item_key": "c26263a847101",
+          "title": "南京大学2027年大学生创新训练计划项目申报通知",
+          "url": "https://jw.nju.edu.cn/ec/fd/c26263a847101/page.htm",
+          "publish_date": "2026-10-27",
+          "summary": "教务处发布2027年大学生创新训练计划项目申报通知，附申报系统使用指南。",
+          "tags": [
+            "报名",
+            "学业"
+          ],
+          "deadline": "",
+          "highlight": true,
+          "highlight_reason": "创新训练项目申报启动",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "2027年申报系统使用指南.zip",
+              "url": "https://jw.nju.edu.cn/_upload/article/files/34/6f/ca1df25a45caba760b42d56a2a99/2d56991f-97dd-46cf-a660-464e8bc17513.zip"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "portals": [
+    {
+      "name": "教务处",
+      "column": "公告通知",
+      "url": "https://jw.nju.edu.cn/ggtz/list.htm",
+      "login": false
+    },
+    {
+      "name": "学生交流办公室",
+      "column": "通知通告",
+      "url": "https://stuex.nju.edu.cn/2539/list.htm",
+      "login": false
+    },
+    {
+      "name": "五育",
+      "column": "活动报名",
+      "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+      "login": true
+    },
+    {
+      "name": "志愿服务",
+      "column": "活动中心",
+      "url": "https://youth.nju.edu.cn/tw/#/legacy?target=/zyz/hdzx&me=MGRmODJjNmEtOTNiZi00MjJjLTk3MWEtMTJmOTdhZjIzYmRj",
+      "login": true
+    },
+    {
+      "name": "选课批次",
+      "column": "选课公告",
+      "url": "https://xk.nju.edu.cn/",
+      "login": false
+    },
+    {
+      "name": "选课公告",
+      "column": "选课公告",
+      "url": "https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/*default/publicinfo.do?type=notice",
+      "login": false
+    },
+    {
+      "name": "办事大厅通知",
+      "column": "通知公告",
+      "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do",
+      "login": true
+    },
+    {
+      "name": "教服平台通知",
+      "column": "通知公告",
+      "url": "https://ehall.nju.edu.cn/portal/html/select_role.html?appId=7170579276974719",
+      "login": true
+    }
+  ],
+  "errors": [
+    {
+      "source": "五育",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "志愿服务",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "办事大厅通知",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "教服平台通知",
+      "reason": "会话已失效"
+    }
+  ]
+}
