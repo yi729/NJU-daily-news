@@ -1,0 +1,268 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T09:37:45+08:00",
+  "stats": {
+    "new": 8,
+    "updated": 0,
+    "sources": 2
+  },
+  "sources": [
+    {
+      "name": "学生交流办公室",
+      "column": "通知通告",
+      "items": [
+        {
+          "item_key": "c2539a847375",
+          "title": "【二次开放 德国-本科生】2027年春季学期哥廷根大学交换项目通知",
+          "url": "https://stuex.nju.edu.cn/ee/0f/c2539a847375/page.htm",
+          "publish_date": "2026-10-28",
+          "summary": "哥廷根大学2027春季本科交换项目二次开放，5名非毕业年级学生可申请，10月30日前报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-10-30",
+          "highlight": true,
+          "highlight_reason": "报名截止仅剩两天",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/b9/80/83b0672b43e1a50664c5009195cf/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a847243",
+          "title": "【德国-本科生、硕士生】2027年春季学期德国奥古斯堡大学交换项目通知",
+          "url": "https://stuex.nju.edu.cn/ed/8b/c2539a847243/page.htm",
+          "publish_date": "2026-10-27",
+          "summary": "奥古斯堡大学2027春季交换项目，招本科与硕士各2名，10月30日前校内报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-10-30",
+          "highlight": true,
+          "highlight_reason": "报名截止仅剩三天",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/96/b2/7990a3c64eafa626f8b243bd1aaf/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            },
+            {
+              "name": "weltweit_UniA_FactSheet_2027.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/96/b2/7990a3c64eafa626f8b243bd1aaf/4dfca978-ba5d-4aa4-8f9a-9cf3852493a3.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a847374",
+          "title": "【二次开放 英国-本科生】关于2027年牛津展望寒假访学计划项目通知",
+          "url": "https://stuex.nju.edu.cn/ee/0e/c2539a847374/page.htm",
+          "publish_date": "2026-10-28",
+          "summary": "牛津展望2027寒假访学计划二次开放，本科生硕士生均可自费报名，11月4日前校内报名。",
+          "tags": [
+            "交换",
+            "报名"
+          ],
+          "deadline": "2026-11-04",
+          "highlight": true,
+          "highlight_reason": "访学报名截止临近",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/d4/68/2103e42e42de96ca6f5055d2bfd5/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a847422",
+          "title": "【日本-硕士生】2027年春季学期日本早稻田大学交换项目通知",
+          "url": "https://stuex.nju.edu.cn/ee/3e/c2539a847422/page.htm",
+          "publish_date": "2026-10-29",
+          "summary": "早稻田大学2027春季硕士交换项目，2名非毕业年级硕士生可申请，11月5日前校内报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-11-05",
+          "highlight": true,
+          "highlight_reason": "交换报名截止临近",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "2027_EX_Factsheet_20260529.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/d7/22/37fa43a740269e3b40f4f9cb1b82/f8557f21-3589-4df0-bd60-57170fa22a41.pdf"
+            },
+            {
+              "name": "Guideline.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/d7/22/37fa43a740269e3b40f4f9cb1b82/291ed851-4ffb-4c3f-b075-87732deb0cd8.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a847380",
+          "title": "【法国-本科生】2027年春季学期里尔政治学院交换项目通知",
+          "url": "https://stuex.nju.edu.cn/ee/14/c2539a847380/page.htm",
+          "publish_date": "2026-10-28",
+          "summary": "里尔政治学院2027春季本科交换项目，2名大二大三学生可申请，11月5日前校内报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-11-05",
+          "highlight": true,
+          "highlight_reason": "交换报名截止临近",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "23445a58-be36-4173-8bed-f0ea7b487282.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/03/bc/278f308a4b1596c555be5dd673f5/23445a58-be36-4173-8bed-f0ea7b487282.pdf"
+            },
+            {
+              "name": "Sciences-Po-Lille_-Fact-Sheet-2026-2027.pdf",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/03/bc/278f308a4b1596c555be5dd673f5/b36fd892-b5ea-48ed-bd50-a83d762b52b6.pdf"
+            }
+          ]
+        },
+        {
+          "item_key": "c2539a847318",
+          "title": "关于2026年基础学科国际化拔尖创新人才培养项目的公示（二）",
+          "url": "https://stuex.nju.edu.cn/ed/d6/c2539a847318/page.htm",
+          "publish_date": "2026-10-28",
+          "summary": "2026年基础学科国际化拔尖创新人才培养项目拟推荐4人公示，10月28日至11月3日可反馈意见。",
+          "tags": [
+            "学业",
+            "交换"
+          ],
+          "deadline": "2026-11-03",
+          "highlight": false,
+          "highlight_reason": "",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        }
+      ]
+    },
+    {
+      "name": "教务处",
+      "column": "公告通知",
+      "items": [
+        {
+          "item_key": "c26263a847434",
+          "title": "【期中考试】2026-2027学年第一学期数学期中考试安排",
+          "url": "https://jw.nju.edu.cn/ee/4a/c26263a847434/page.htm",
+          "publish_date": "2026-10-29",
+          "summary": "2026-2027学年第一学期数学期中考试定于11月7日，学生需查看考场安排并按时参加。",
+          "tags": [
+            "学业",
+            "事务"
+          ],
+          "deadline": "2026-11-07",
+          "highlight": true,
+          "highlight_reason": "期中考试临近",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "c26263a847426",
+          "title": "2026年11月25日、12月2日、12月4日普通话水平测试网络报名通知",
+          "url": "https://jw.nju.edu.cn/ee/42/c26263a847426/page.htm",
+          "publish_date": "2026-10-29",
+          "summary": "11月25日、12月2日、12月4日普通话水平测试网络报名，本科生研究生可报，最早11月21日截止。",
+          "tags": [
+            "报名",
+            "事务"
+          ],
+          "deadline": "2026-11-21",
+          "highlight": true,
+          "highlight_reason": "测试报名额满为止",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        }
+      ]
+    }
+  ],
+  "portals": [
+    {
+      "name": "教务处",
+      "column": "公告通知",
+      "url": "https://jw.nju.edu.cn/ggtz/list.htm",
+      "login": false
+    },
+    {
+      "name": "学生交流办公室",
+      "column": "通知通告",
+      "url": "https://stuex.nju.edu.cn/2539/list.htm",
+      "login": false
+    },
+    {
+      "name": "五育",
+      "column": "活动报名",
+      "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+      "login": true
+    },
+    {
+      "name": "志愿服务",
+      "column": "活动中心",
+      "url": "https://youth.nju.edu.cn/tw/#/legacy?target=/zyz/hdzx&me=MGRmODJjNmEtOTNiZi00MjJjLTk3MWEtMTJmOTdhZjIzYmRj",
+      "login": true
+    },
+    {
+      "name": "选课批次",
+      "column": "选课公告",
+      "url": "https://xk.nju.edu.cn/",
+      "login": false
+    },
+    {
+      "name": "选课公告",
+      "column": "选课公告",
+      "url": "https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/*default/publicinfo.do?type=notice",
+      "login": false
+    },
+    {
+      "name": "办事大厅通知",
+      "column": "通知公告",
+      "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do",
+      "login": true
+    },
+    {
+      "name": "教服平台通知",
+      "column": "通知公告",
+      "url": "https://ehall.nju.edu.cn/portal/html/select_role.html?appId=7170579276974719",
+      "login": true
+    }
+  ],
+  "errors": [
+    {
+      "source": "五育",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "志愿服务",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "办事大厅通知",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "教服平台通知",
+      "reason": "会话已失效"
+    }
+  ]
+}
