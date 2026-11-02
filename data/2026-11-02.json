@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T20:50:31+08:00",
+  "stats": {
+    "new": 2,
+    "updated": 0,
+    "sources": 1
+  },
+  "sources": [
+    {
+      "name": "学生交流办公室",
+      "column": "通知通告",
+      "items": [
+        {
+          "item_key": "c2539a847600",
+          "title": "【二次开放】【澳大利亚-本科生】2027年春季学期澳大利亚皇家墨尔本理工大学交换项目通知",
+          "url": "https://stuex.nju.edu.cn/ee/f0/c2539a847600/page.htm",
+          "publish_date": "2026-11-02",
+          "summary": "2027年春季皇家墨尔本理工大学交换项目二次开放，招1名大二大三本科生，免学费，11月2日前校内报名。",
+          "tags": [
+            "交换",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-11-02",
+          "highlight": true,
+          "highlight_reason": "校内报名截止在即",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": []
+        },
+        {
+          "item_key": "c2539a847610",
+          "title": "【CSC】2027年高层次医学创新人才合作培养项目通知",
+          "url": "https://stuex.nju.edu.cn/ee/fa/c2539a847610/page.htm",
+          "publish_date": "2026-11-02",
+          "summary": "CSC与牛津大学2027年高层次医学创新人才博士项目，面向八年制临床医学博士生及非医学应届本科生，11月6日前校内报名。",
+          "tags": [
+            "资助",
+            "报名",
+            "学业"
+          ],
+          "deadline": "2026-11-06",
+          "highlight": true,
+          "highlight_reason": "校内报名11月6日截止",
+          "status": "new",
+          "body_state": "ok",
+          "attachments": [
+            {
+              "name": "20261030184633_9862.pdf",
+              "url": "https://www.csc.edu.cn/attached/file/20261030/20261030184633_9862.pdf"
+            },
+            {
+              "name": "报名表.xlsx",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/03/21/60d4e0884522bc7d669bf680ec59/2ffa364e-393b-40d6-9a3b-1ea078b9896f.xlsx"
+            },
+            {
+              "name": "附件2.出国留学申请单位推荐意见表（本科生、研究生类).docx",
+              "url": "https://stuex.nju.edu.cn/_upload/article/files/03/21/60d4e0884522bc7d669bf680ec59/ac9b45db-57c4-4ee9-9552-8711620effdf.docx"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "portals": [
+    {
+      "name": "教务处",
+      "column": "公告通知",
+      "url": "https://jw.nju.edu.cn/ggtz/list.htm",
+      "login": false
+    },
+    {
+      "name": "学生交流办公室",
+      "column": "通知通告",
+      "url": "https://stuex.nju.edu.cn/2539/list.htm",
+      "login": false
+    },
+    {
+      "name": "五育",
+      "column": "活动报名",
+      "url": "https://ndwy.nju.edu.cn/dztml/#/index/hdgc",
+      "login": true
+    },
+    {
+      "name": "志愿服务",
+      "column": "活动中心",
+      "url": "https://youth.nju.edu.cn/tw/#/legacy?target=/zyz/hdzx&me=MGRmODJjNmEtOTNiZi00MjJjLTk3MWEtMTJmOTdhZjIzYmRj",
+      "login": true
+    },
+    {
+      "name": "选课批次",
+      "column": "选课公告",
+      "url": "https://xk.nju.edu.cn/",
+      "login": false
+    },
+    {
+      "name": "选课公告",
+      "column": "选课公告",
+      "url": "https://xk.nju.edu.cn/xsxkapp/sys/xsxkapp/*default/publicinfo.do?type=notice",
+      "login": false
+    },
+    {
+      "name": "办事大厅通知",
+      "column": "通知公告",
+      "url": "https://ehallapp.nju.edu.cn/psfw/sys/tzggapp/*default/index.do",
+      "login": true
+    },
+    {
+      "name": "教服平台通知",
+      "column": "通知公告",
+      "url": "https://ehall.nju.edu.cn/portal/html/select_role.html?appId=7170579276974719",
+      "login": true
+    }
+  ],
+  "errors": [
+    {
+      "source": "五育",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "志愿服务",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "办事大厅通知",
+      "reason": "会话已失效"
+    },
+    {
+      "source": "教服平台通知",
+      "reason": "会话已失效"
+    }
+  ]
+}
