@@ -1,95 +1,230 @@
 {
-  "generatedAt": "2026-11-02T20:50:33",
+  "generatedAt": "2026-11-10T12:37:09",
   "items": [
     {
-      "title": "Twisting Higgs modules and the p-adic Simpson correspondence",
-      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261009/i421788.html",
-      "date": "2026-11-06",
-      "start": "2026-11-06",
-      "note": "11月6日 10:00 · Ahmed Abbes 研究员 (IHES) · 西大楼308报告厅",
+      "title": "On the Adaptive Deterministic Multiple Row- and Column-Action Methods",
+      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261109/i432039.html",
+      "date": "2026-11-13",
+      "start": "2026-11-13",
+      "note": "11月13日 14:00 · 左钱 博士，安徽大学，数据科学与大数据技术系 · 西大楼108",
       "source": "数学学院",
       "column": "近期报告"
     },
     {
-      "title": "揭示复杂系统的多稳态：解景观的新进展",
-      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261027/i427649.html",
-      "date": "2026-11-06",
-      "start": "2026-11-06",
-      "note": "11月6日 15:00 · 张磊（北京大学） · 西大楼210",
+      "title": "Sharp large-time asymptotics and optimal decay for the fractional Navier-Stokes equations",
+      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261103/i428343.html",
+      "date": "2026-11-13",
+      "start": "2026-11-13",
+      "note": "11月13日 10:00 · 黄景炽（中山大学） · 西大楼210",
       "source": "数学学院",
       "column": "近期报告"
     },
     {
-      "title": "Reverberation lags viewed in hard X-rays from an accreting stellar-mass black hole",
-      "url": "https://astronomy.nju.edu.cn/xshd/xsbg/20261027/i427460.html",
-      "date": "2026-11-05",
-      "start": "2026-11-05",
-      "note": "11月5日 16:10 · 游贝 教授 （武汉大学） · 天文楼212报告厅",
-      "source": "天文与空间科学学院",
+      "title": "【本科生论坛】流体中的漩涡",
+      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261106/i428698.html",
+      "date": "2026-11-11",
+      "start": "2026-11-11",
+      "note": "11月11日 16:00 · 阮渝航（23级南赫） · 戊己庚四楼北",
+      "source": "数学学院",
+      "column": "近期报告"
+    },
+    {
+      "title": "南京大学物理学院学术报告会（第116期）",
+      "url": "http://physics.nju.edu.cn/xwdt/xshd/20261110/i432122.html",
+      "date": "2026-11-10",
+      "start": "2026-11-12",
+      "note": "11月12日 15:30 · 樊京芳教授（北京师范大学） · 鼓楼校区唐仲英楼B501",
+      "source": "物理学院",
+      "column": "学术活动"
+    },
+    {
+      "title": "【讲座信息】11月19日图书馆知识讲座之使用南大图书馆特藏文献以助研究",
+      "url": "https://lib.nju.edu.cn/info/1012/4402.htm",
+      "date": "2026-11-09",
+      "start": "2026-11-19",
+      "note": "11月19日",
+      "source": "图书馆",
+      "column": "资源动态"
+    },
+    {
+      "title": "【讲座信息】11月18日图书馆知识讲座之GALE为您呈现1.7亿页历史一次文献",
+      "url": "https://lib.nju.edu.cn/info/1012/4401.htm",
+      "date": "2026-11-09",
+      "start": "2026-11-18",
+      "note": "11月18日",
+      "source": "图书馆",
+      "column": "资源动态"
+    },
+    {
+      "title": "【讲座信息】11月17日图书馆知识讲座之馆藏专利资源的检索与利用",
+      "url": "https://lib.nju.edu.cn/info/1012/4400.htm",
+      "date": "2026-11-09",
+      "start": "2026-11-17",
+      "note": "11月17日",
+      "source": "图书馆",
+      "column": "资源动态"
+    },
+    {
+      "title": "AI赋能下的《地质学基础》课程资源建设",
+      "url": "http://es.nju.edu.cn/f1/9b/c22458a848283/page.htm",
+      "date": "2026-11-09",
+      "start": "",
+      "note": "",
+      "source": "地球科学与工程学院",
       "column": "学术报告"
     },
     {
-      "title": "【本科生论坛】图和图论在医学图像分析中的应用举例",
-      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261029/i427837.html",
+      "title": "“风云英华”学术讲座第126期 王开存教授",
+      "url": "https://as.nju.edu.cn/f1/8f/c11321a848271/page.htm",
+      "date": "2026-11-09",
+      "start": "2026-11-13",
+      "note": "11月13日 下午2:00-3:30 · 王开存 教授（北京大学） · 大气楼D103报告厅 报告",
+      "source": "大气科学学院",
+      "column": "报告讲座"
+    },
+    {
+      "title": "2026年11月11日学术报告 - 李元健 助理教授",
+      "url": "https://cs.nju.edu.cn/f1/ad/c1706a848301/page.htm",
+      "date": "2026-11-09",
+      "start": "2026-11-11",
+      "note": "11月11日",
+      "source": "计算机学院",
+      "column": "会议讲座信息"
+    },
+    {
+      "title": "讲座预告｜数字人文:连接文化、数据与意义",
+      "url": "https://history.nju.edu.cn/f0/eb/c28501a848107/page.htm",
+      "date": "2026-11-06",
+      "start": "",
+      "note": "",
+      "source": "历史学院",
+      "column": "学术讲座"
+    },
+    {
+      "title": "第十届刑辩经纬论坛：数智时代刑事辩护的挑战与机遇会议议程",
+      "url": "https://law.nju.edu.cn/info/2261/28371.htm",
+      "date": "2026-11-06",
+      "start": "",
+      "note": "",
+      "source": "法学院",
+      "column": "学术活动"
+    },
+    {
+      "title": "“风云英华”学术讲座第125期 Prof. Noel Sebastian Keenlyside",
+      "url": "https://as.nju.edu.cn/f0/83/c11321a848003/page.htm",
+      "date": "2026-11-05",
+      "start": "2026-11-10",
+      "note": "11月10日 下午2:00-3:30 · Prof. Noel Sebastian Keenlyside (University of Bergen) · 大气楼院史馆报告厅 报告",
+      "source": "大气科学学院",
+      "column": "报告讲座"
+    },
+    {
+      "title": "上海法官进高校系列巡讲——南京大学第九讲海报",
+      "url": "https://law.nju.edu.cn/info/2261/28351.htm",
+      "date": "2026-11-05",
+      "start": "",
+      "note": "",
+      "source": "法学院",
+      "column": "学术活动"
+    },
+    {
+      "title": "11月10日 晏乃强教授 基于硫形态调控的大气污染控制及低碳资源化技术",
+      "url": "http://hjxy.nju.edu.cn/sy/xsjl/20261105/i428680.html",
+      "date": "2026-11-05",
+      "start": "2026-11-10",
+      "note": "11月10日 14:30 · 环境学院B230 【打印此页】 【关闭窗口】 【返回顶部】",
+      "source": "环境学院",
+      "column": "学术交流"
+    },
+    {
+      "title": "2026年11月10日“软件新技术讲坛”学术报告 - Srijita Kundu Senior Research Scientist",
+      "url": "https://cs.nju.edu.cn/f0/ba/c1706a848058/page.htm",
+      "date": "2026-11-05",
+      "start": "2026-11-10",
+      "note": "11月10日",
+      "source": "计算机学院",
+      "column": "会议讲座信息"
+    },
+    {
+      "title": "【讲座信息】11月12日图书馆知识讲座之抗战时期古籍流亡的三重叙事与文明守护",
+      "url": "https://lib.nju.edu.cn/info/1012/4397.htm",
       "date": "2026-11-04",
-      "start": "2026-11-04",
-      "note": "11月4日 16:00 · 聂梓伟 · 戊己庚四楼北",
-      "source": "数学学院",
-      "column": "近期报告"
+      "start": "2026-11-12",
+      "note": "11月12日",
+      "source": "图书馆",
+      "column": "资源动态"
     },
     {
-      "title": "Geodesics, coerciveness and stability for complex Hessian-type equations",
-      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261027/i427652.html",
+      "title": "【讲座信息】11月11日图书馆知识讲座之解锁CADAL学术宝库",
+      "url": "https://lib.nju.edu.cn/info/1012/4395.htm",
+      "date": "2026-11-04",
+      "start": "2026-11-11",
+      "note": "11月11日",
+      "source": "图书馆",
+      "column": "资源动态"
+    },
+    {
+      "title": "【讲座信息】11月10日图书馆知识讲座之学位论文网络资源的检索与搜集",
+      "url": "https://lib.nju.edu.cn/info/1012/4394.htm",
+      "date": "2026-11-04",
+      "start": "2026-11-10",
+      "note": "11月10日",
+      "source": "图书馆",
+      "column": "资源动态"
+    },
+    {
+      "title": "法学院学术系列讲座之二百六十一期海报",
+      "url": "https://law.nju.edu.cn/info/2261/28311.htm",
+      "date": "2026-11-04",
+      "start": "",
+      "note": "",
+      "source": "法学院",
+      "column": "学术活动"
+    },
+    {
+      "title": "南京大学法学院名家论坛讲座之一百七十一期海报",
+      "url": "https://law.nju.edu.cn/info/2261/28291.htm",
+      "date": "2026-11-04",
+      "start": "",
+      "note": "",
+      "source": "法学院",
+      "column": "学术活动"
+    },
+    {
+      "title": "2026年11月11日“软件新技术讲坛”学术报告 - 王立元 助理教授",
+      "url": "https://cs.nju.edu.cn/ef/21/c1706a847649/page.htm",
+      "date": "2026-11-04",
+      "start": "2026-11-11",
+      "note": "11月11日",
+      "source": "计算机学院",
+      "column": "会议讲座信息"
+    },
+    {
+      "title": "南京大学生物演化与环境科教融合中心十周年系列活动之《演化——地球生命简史》新书发布会报名通知",
+      "url": "http://es.nju.edu.cn/ef/e6/c22458a847846/page.htm",
       "date": "2026-11-03",
-      "start": "2026-11-03",
-      "note": "11月3日 15:40 · 陈杲 (中国科学技术大学） · 蒙民伟楼1105室",
-      "source": "数学学院",
-      "column": "近期报告"
+      "start": "",
+      "note": "",
+      "source": "地球科学与工程学院",
+      "column": "学术报告"
     },
     {
-      "title": "牟合方盖： 跨越千年历史的数学传奇",
-      "url": "http://math.nju.edu.cn/xsbg/jrbg/20261027/i427645.html",
+      "title": "激光共聚焦显微镜设备统一培训",
+      "url": "http://es.nju.edu.cn/f1/14/c22458a848148/page.htm",
       "date": "2026-11-03",
-      "start": "2026-11-03",
-      "note": "11月3日 14:30 · 叶德平教授，加拿大纽芬兰纪念大学 · 蒙民伟楼1105报告厅",
-      "source": "数学学院",
-      "column": "近期报告"
+      "start": "",
+      "note": "",
+      "source": "地球科学与工程学院",
+      "column": "学术报告"
     },
     {
-      "title": "【讲座信息】11月5日图书馆知识讲座之基于EBSCO平台AI赋能的文献调研实战",
-      "url": "https://lib.nju.edu.cn/info/1012/4392.htm",
-      "date": "2026-11-02",
-      "start": "2026-11-05",
-      "note": "11月5日",
-      "source": "图书馆",
-      "column": "资源动态"
-    },
-    {
-      "title": "【讲座信息】11月4日图书馆知识讲座之大学外语学习与升学路径规划",
-      "url": "https://lib.nju.edu.cn/info/1012/4391.htm",
-      "date": "2026-11-02",
-      "start": "2026-11-04",
-      "note": "11月4日",
-      "source": "图书馆",
-      "column": "资源动态"
-    },
-    {
-      "title": "【讲座信息】11月4日图书馆知识讲座之馆藏生命科学资源相关的检索与利用",
-      "url": "https://lib.nju.edu.cn/info/1012/4390.htm",
-      "date": "2026-11-02",
-      "start": "2026-11-04",
-      "note": "11月4日",
-      "source": "图书馆",
-      "column": "资源动态"
-    },
-    {
-      "title": "【讲座信息】11月3日图书馆知识讲座之科研选题与论文写作投稿",
-      "url": "https://lib.nju.edu.cn/info/1012/4389.htm",
-      "date": "2026-11-02",
-      "start": "2026-11-03",
-      "note": "11月3日",
-      "source": "图书馆",
-      "column": "资源动态"
+      "title": "「圣达学术讲坛」154讲预告 || 田野调查如何回答普遍大问题?一来自一个村庄案例的启示",
+      "url": "https://public.nju.edu.cn/xsky/xsjz/20261103/i428334.html",
+      "date": "2026-11-03",
+      "start": "",
+      "note": "",
+      "source": "政府管理学院",
+      "column": "学术交流"
     },
     {
       "title": "海关法十人谈——海关法实务的前沿问题与共同应对海报",
@@ -101,24 +236,6 @@
       "column": "学术活动"
     },
     {
-      "title": "南京大学物理学院学术报告会（第115期）",
-      "url": "http://physics.nju.edu.cn/xwdt/xshd/20261102/i428215.html",
-      "date": "2026-11-02",
-      "start": "2026-11-05",
-      "note": "11月5日 15:30 · 朱华星教授，北京大学 · 鼓楼校区唐仲英楼B501",
-      "source": "物理学院",
-      "column": "学术活动"
-    },
-    {
-      "title": "11月5日名师讲坛-张勇教授：Stimuli-responsive Materials for Biomedical Applications",
-      "url": "https://chem.nju.edu.cn/ee/e0/c12640a847584/page.htm",
-      "date": "2026-11-01",
-      "start": "2026-11-05",
-      "note": "11月5日",
-      "source": "化学学院",
-      "column": "学术交流"
-    },
-    {
       "title": "上海法官进高校系列巡讲——南京大学第八讲海报",
       "url": "https://law.nju.edu.cn/info/2261/28191.htm",
       "date": "2026-10-30",
@@ -126,15 +243,6 @@
       "note": "",
       "source": "法学院",
       "column": "学术活动"
-    },
-    {
-      "title": "2026年11月9日学术报告 - 刘名威 副教授",
-      "url": "https://cs.nju.edu.cn/ed/0e/c1706a847118/page.htm",
-      "date": "2026-10-29",
-      "start": "2026-11-09",
-      "note": "11月9日",
-      "source": "计算机学院",
-      "column": "会议讲座信息"
     },
     {
       "title": "「圣达学术讲坛」153讲预告 || 朝向社会包容政策—从美国的儿童抚养费政策谈起",
@@ -342,114 +450,6 @@
       "note": "",
       "source": "地球科学与工程学院",
       "column": "学术报告"
-    },
-    {
-      "title": "“蝌蚪”学术讲座：Aerial insects in the Anthropocene: Radar remote sensing of insect response to global change",
-      "url": "https://life.nju.edu.cn/e7/d3/c12967a845779/page.htm",
-      "date": "2026-10-10",
-      "start": "",
-      "note": "",
-      "source": "生命科学学院",
-      "column": "学术交流"
-    },
-    {
-      "title": "Small Body Sample Return Missions - Hayabusa2 and Beyond",
-      "url": "http://es.nju.edu.cn/e7/41/c22458a845633/page.htm",
-      "date": "2026-10-09",
-      "start": "",
-      "note": "",
-      "source": "地球科学与工程学院",
-      "column": "学术报告"
-    },
-    {
-      "title": "教师教学能力提升计划第21期——“智汇南雍·赋能教学”专题讲座",
-      "url": "http://es.nju.edu.cn/e7/43/c22458a845635/page.htm",
-      "date": "2026-10-09",
-      "start": "",
-      "note": "",
-      "source": "地球科学与工程学院",
-      "column": "学术报告"
-    },
-    {
-      "title": "通过设置标准解释宪法——德国联邦宪法法院的独特范式",
-      "url": "https://law.nju.edu.cn/info/2261/27681.htm",
-      "date": "2026-10-09",
-      "start": "",
-      "note": "",
-      "source": "法学院",
-      "column": "学术活动"
-    },
-    {
-      "title": "“南雍地学大讲堂”第9期——地质学人才培养改革：101计划体系框架与工作进展",
-      "url": "http://es.nju.edu.cn/e6/d9/c22458a845529/page.htm",
-      "date": "2026-10-08",
-      "start": "",
-      "note": "",
-      "source": "地球科学与工程学院",
-      "column": "学术报告"
-    },
-    {
-      "title": "“南雍地学大讲堂”第10期——Oxygen Isotope Tracing of the Solar System",
-      "url": "http://es.nju.edu.cn/e6/d7/c22458a845527/page.htm",
-      "date": "2026-10-08",
-      "start": "",
-      "note": "",
-      "source": "地球科学与工程学院",
-      "column": "学术报告"
-    },
-    {
-      "title": "太平洋板块重建与俯冲带物质循环",
-      "url": "http://es.nju.edu.cn/e6/d6/c22458a845526/page.htm",
-      "date": "2026-10-08",
-      "start": "",
-      "note": "",
-      "source": "地球科学与工程学院",
-      "column": "学术报告"
-    },
-    {
-      "title": "法学院学术系列讲座之二百六十期海报",
-      "url": "https://law.nju.edu.cn/info/2261/27501.htm",
-      "date": "2026-10-08",
-      "start": "",
-      "note": "",
-      "source": "法学院",
-      "column": "学术活动"
-    },
-    {
-      "title": "“蝌蚪”学术讲座：疫苗是怎样\"炼\"成的？",
-      "url": "https://life.nju.edu.cn/e7/0c/c12967a845580/page.htm",
-      "date": "2026-10-08",
-      "start": "",
-      "note": "",
-      "source": "生命科学学院",
-      "column": "学术交流"
-    },
-    {
-      "title": "\"蝌蚪“学术讲座:Biodiversity consequences of long-distance animal movements",
-      "url": "https://life.nju.edu.cn/e6/d3/c12967a845523/page.htm",
-      "date": "2026-10-08",
-      "start": "",
-      "note": "",
-      "source": "生命科学学院",
-      "column": "学术交流"
-    },
-    {
-      "title": "“蝌蚪”学术讲座：疫苗是怎样\"炼\"成的？",
-      "url": "https://life.nju.edu.cn/ec/88/c12967a846984/page.htm",
-      "date": "2026-10-08",
-      "start": "",
-      "note": "",
-      "source": "生命科学学院",
-      "column": "学术交流"
-    },
-    {
-      "title": "南京大学法学院名家论坛讲座之一百六十九期海报",
-      "url": "https://law.nju.edu.cn/info/2261/27471.htm",
-      "date": "2026-10-07",
-      "start": "",
-      "note": "",
-      "source": "法学院",
-      "column": "学术活动"
     }
   ],
   "portals": [
