@@ -1,6 +1,14 @@
 {
-  "generatedAt": "2026-11-24T12:29:59",
+  "generatedAt": "2026-11-25T18:49:57",
   "days": [
+    {
+      "date": "2026-11-25",
+      "newCount": 1,
+      "updatedCount": 0,
+      "itemCount": 1,
+      "highlightCount": 1,
+      "generatedAt": "2026-11-25T18:49:57+08:00"
+    },
     {
       "date": "2026-11-24",
       "newCount": 3,
